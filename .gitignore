@@ -1,0 +1,5 @@
+# ignore generated pdf files
+*.pdf
+
+# ignore fonts directory
+**/fonts
