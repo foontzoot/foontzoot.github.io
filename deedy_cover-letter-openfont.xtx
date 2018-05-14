@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - Cover Letter Template
+% LaTeX Template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-cover-letter-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\rfoot{Page \thepage \hspace{1pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Sinisa}{Petkovic}{ \urlstyle{same}\href{mailto:sini.petkovic@gmail.com}{sini.petkovic@gmail.com} | 905.745.4734
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     MAIN COVER LETTER CONTENT
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hfill
+
+\begin{minipage}[t]{0.5\textwidth} 
+\companyname{Company Recruitment Team}
+\companyaddress{
+Advance Technologies \\
+8374 Crimson Street \\
+New York, NY 10125
+}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth} 
+\currentdate{\today}
+\end{minipage}
+
+\lettercontent{Dear Recruiter,}
+
+\lettercontent{Enclosed please find my resume, which I am sending in response to your recent ad for a Software Developer. I have extensive experience in software programming and design and I feel that my professional and educational background will satisfy the requirements of this position.}
+
+\lettercontent{I have consistently met the challenges presented in this field over the past ten years as a professional Software Developer. My attention to detail, organizational skills and strong communication abilities have allowed me to lead software development teams and ensure the success of each project assigned to me. I have worked in both Unix and Linux environments and am skilled in T-SQL and MS SQL programming as well as C/C++. I also possess functional knowledge of C# and Java and have worked with Agile methods.}
+
+\lettercontent{The following highlights my experience and abilities:}
+
+\lettercontent{Sed auctor, enim sit amet consectetur ultricies, lectus nulla ultrices nisi, ut tristique lectus sapien a quam. Nunc et cursus ligula. Etiam in volutpat lacus, non hendrerit massa. Aliquam erat volutpat. Duis ligula nisi, finibus id cursus sed, efficitur in est. Cras nec accumsan turpis. Pellentesque eu lobortis urna. Aliquam pulvinar non lacus quis imperdiet. Nunc tincidunt tellus bibendum accumsan laoreet.}
+
+\lettercontent{Proin blandit, sapien vitae lacinia consequat, justo lorem pretium leo, ut commodo libero augue in neque. Curabitur facilisis, tellus nec sodales ultricies, sem mi pulvinar purus, et accumsan mauris metus vitae lectus. In non risus id nunc mollis consequat. Mauris et euismod neque.}
+
+%\closing{Sincerely,\\ \vspace{.1cm} \includegraphics[width=4cm]{signature} \vspace{-1cm} }
+\closing{Sincerely,}
+
+\signature{Sinisa Petkovic}
+
+\end{document}  
+\documentclass[]{article}
