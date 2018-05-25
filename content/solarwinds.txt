@@ -1,0 +1,49 @@
+Enclosed please find my resume, which I am sending in response to your recent ad for a Software Developer. I have extensive experience in software development and design, and I feel that my professional and educational background will satisfy the requirements of this position.
+
+I have consistently met the challenges presented in this field over the past fifteen years as a professional Software Developer. My attention to detail, organizational skills and strong communication abilities have allowed me to lead and complement software development teams and ensure the success of each project assigned to me.
+
+The following highlights my experience and abilities:
+10+ years of work experience in .NET in a web environment: ASP.NET Web Forms, ASP.NET MVC, C#, JavaScript, TypeScript
+2+ years of work experience on .NET Core, EF Core
+Extensive database experience with SQL Server, Azure SQL, SQL Server Reporting Services, MySQL
+Client-side frameworks: Aurelia, React, AngularJS, Angular 2+ and jQuery
+Agile/Scrum methodology
+API design
+Experience in the financial service, marketing industry and e-commerce
+PCI compliance
+GitHub, VSTS, TFS
+Azure, Google Cloud and Digital Ocean
+Team building and leadership
+
+Here is my summarized database (and data related) experience. Please contact me if you have any questions or concerns.
+
+RDBMS database development:
+Tables, functions, stored procedures, transactions, temporary tables, in-memory tables, queries, subqueries, joins, triggers, primary and foreign keys, indexing, execution plans and optimization, are parts of my daily professional life. I worked with SQL Server, MySQL (on-premise and on Azure), Azure SQL, Oracle 8i, SQLite, DB2, MS Access and QBase. In a recent project for Questica (Salaries Baselines/Snapshots) I created more than 30 de-normalized snapshot tables, and 20+ stored procedures to capture current data for later viewing and comparison.
+
+ETL:
+Data integration is also something I deal on a daily basis. In Questica, we import HR and financial data (actuals) into our budgeting solution. Our destination DB is SQL Server (2008 - 2017), but data is coming from various sources (financial and HR systems). There is a lot of string manipulation (concatenation, substring) as well as changes in data type. We also created a one-click export to extract data sets from Questica Budget to our data visualization app OpenBook.  At my previous workplace (The Hunt Group) I had to import customer data from many companies (Dell Canada, Tim Horton's, Rogers Mobile, Fido, Accenture, Benson and Hedges). The most notable, by size and data inaccuracy was Rogers. It was a daily upload of about a million de-normalized CSV records into our on-premise MySql DB. I created an ETL script for import into staging tables and transform data into appropriate tables. The program would email Rogers IT detailed explanation when it encountered inaccurate data.
+
+OLTP (transactional) data modelling:
+I created and normalized numerous databases in SQL Server and MySQL at the Hunt Group. 3NF is the usually the farthest I would go. When crafting a data model, I would usually follow a few steps:
+1. Understand the data
+2. Model the data
+3. Validate the model
+4. Build the model
+5. Deploy the model
+6. Test the model
+7. Release
+
+Data Warehousing/Business Intelligence/OLAP
+As a team member, I helped create data warehousing DB for our largest customer, California State University. They have over 20 campuses, and each has its budgeting solution with Questica. They wanted to be able to create budgeting reports from locked previous years. So, we created a data warehouse DB and imported de-normalized past years data. We reduced the number of tables from 150+ to about 40, categorized them as facts or dimensions (Type 1) and assigned surrogate keys. For reporting, we used SSAS (cube) and SSRS. This project is likely to be moved to Azure ML.
+
+Cloud databases:
+I worked with Azure SQL and Azure-based MySQL. I also used Firebase (Google Cloud), CosmosDB, Azure Table Storage and Redis.
+
+In the position you are offering, I will continue to bring my leadership, troubleshooting and problem-solving skills to ensure the timely completion of all assignments and guarantee company success and customer satisfaction. I look forward to speaking with you about my background and qualifications at your earliest convenience.
+
+Thank you for your consideration.
+
+Sincerely,
+Sinisa Petkovic
+
+PS. I know I'm far from Ottawa at the moment, but I'm planning to move there as soon as possible.
