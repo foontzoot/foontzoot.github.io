@@ -95,15 +95,15 @@ Belgrade, Serbia
 
 #### PROGRAMMING
 
->C# • JS • C/C++ • PHP • Java • VB Script • SQL/TSQL • OOP • FP • Design Patterns • Git • TFS/VSTS
+>C# • JavaScript • C/C++ • PHP • Python • Java • VB Script • SQL • OOP • FP • Design Patterns • Git • TFS/VSTS
 
 #### WEB FRONT-END
 
->DOM • React • Aurelia• jQuery • HTML• CSS • Webpack • Gulp • Lodash • Mocha • Jasmine • Bower • Bootstrap • Material Design • SVG • Markdown • LaTeX
+>DOM • React • Angular • Aurelia • jQuery • HTML• CSS • Webpack • Gulp • Lodash • Mocha • Jasmine • Bower • Bootstrap • Material Design • SVG • Markdown • LaTeX
 
 #### WEB BACK-END
 
->ASP.NET • ASP.NET Core • IIS • Kestrel • NodeJS • Express • CodeIgniter • Flask • Swagger • Nginx • Apache • Phoenix
+>ASP.NET • ASP.NET Core • IIS • Kestrel • NodeJS • Express • Spring • CodeIgniter • Flask • Swagger • Nginx • Apache • Phoenix
 
 #### .NET FRAMEWORKS
 
@@ -111,7 +111,7 @@ Belgrade, Serbia
 
 #### DATABASES/STORAGE
 
->SQL Server • Azure SQL • MySQL • CosmosDB • PostgreSQL • Firebase • Redis • RavenDB • XML • JSON • Reporting Services
+>SQL Server • Azure SQL • MySQL • CosmosDB • PostgreSQL • MongoDB • Firebase • Redis • RavenDB • XML • JSON • SSRS • SSAS
 
 #### CLOUD/VIRTUALIZATION
 
@@ -119,7 +119,7 @@ Belgrade, Serbia
 
 #### INTERESTS
 
->Python • Golang • F# • Angular • Elixir • Erlang • Clojure • Scala • Kotlin • Rust • VueJS • WebAssembly • CQRS/Event Sourcing • PowerBI • Xamarin • AWS
+>Go • Elixir/Phoenix • Erlang • Clojure • Rust • R • Vue • Q# • ML • GraphQL • WebAssembly
 
 ---
 
@@ -163,11 +163,29 @@ Maintained and updated internal Inventory System based on SQL Server 2000 and MS
 
 #### Dell Advantage (The Hunt Group & Dell Canada)
 
-##### Red Hat Linux • PHP 5.X • MySQL • Apache • Bootstrap • jQuery • Mandrill • GitHub
+##### RedHat • PHP 5.X • MySQL • Apache • Bootstrap • jQuery • Mandrill • GitHub
 
 Dell Advantage members get 5% back on a Dell ePromotional Card for all Dell.ca purchases over $100. This application was created with PHP and MySQL. We used Mandrill for transactional emails. Existing data was provided by several Dell departments and was combined into one single source.
 
-#### Property Management Social Web App (Freelance)
+#### Rogers Promotions (The Hunt Group & Rogers Canada)
+
+##### RedHat • JBoss • Java 5, 6, 7 • Spring 3.x, 4.x • Hibernate • PostgreSQL • Bootstrap • jQuery • Mandrill • GitHub
+
+I designed, architected, developed and helped maintain online Rogers Loyalty Reward program management web application. We built it in three sections; end-customer for current status, Rogers Admin for Rogers Marketing Team reporting and data insights and THG Admin for shipping, warehousing and invoicing. It handled the daily upload of about 100K de-normalized CSV records into our on-premise PostgreSQL DB. I created an ETL process for import into staging tables and transform data into appropriate tables. The program would email Rogers IT detailed explanation when it encountered inaccurate data. Designed and developed a various social network and email integration packages using provided APIs from Twitter, Facebook, Google and Mandrill.
+
+#### City of Calgary Rebate (The Hunt Group & City of Calgary)
+
+##### RedHat • JBoss • Java • Spring • Hibernate • PostgreSQL • Custom CSS • jQuery • Mandrill • GitHub
+
+For many years, Calgarians could get a $50 rebate from the City of Calgary for purchasing a WaterSense toilet. Unfortunately, the program is closed as of August 15, 2016. Residents could determine eligibility before applying based on the Postal Code, number of toilets already replaced in their address and the toilet model (SKU). We provided extensive reporting to the City of Calgary rebate program.
+
+#### StoreFrontDirect (The Hunt Group)
+
+##### Magento • PHP • MySQL • CSS
+
+StoreFrontDirect is the end-to-end eCommerce solution that has all the online sales prerequisites in one unified platform. It starts with a robust StoreFront designed for branding, usability and adaptability to the pace of your business. Hosted back-office services from logistics to payments processing to settlement – and advanced “first of its kind” analytics – are embedded to unlock the full potential of your business. Everything is easy to initiate and designed to scale with your company.
+
+#### Property Management Social Web App (Side Project)
 
 ##### React • Flux • Firebase • Jest • Digital Ocean • SASS • Webpack • react-cli • npm • VSTS
 

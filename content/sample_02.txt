@@ -1,0 +1,20 @@
+Enclosed please find my resume, which I am sending in response to your recent ad for a Software Developer. I have extensive experience in software development and design, and I feel that my professional and educational background will satisfy the requirements of this position.
+
+I have consistently met the challenges presented in this field over the past fifteen years as a professional Software Developer. My attention to detail, organizational skills and strong communication abilities have allowed me to lead and complement software development teams and ensure the success of each project assigned to me.
+
+The following highlights my professional experience and abilities:
+10+ years in .NET/.NET Core in a web environment: C#, ASP.NET Web Forms, ASP.NET MVC, Razor Pages
+5+ years in JavaScript (NodeJS/Express), Python (Flask/Django), PHP (LAMP/CodeIgniter), Java (Spring), C++, VB Script
+Extensive relational database experience with SQL Server, MySQL, PostgreSQL, Azure SQL, SSRS, SSAS
+Client-side frameworks: React, Angular, Aurelia, jQuery, Bootstrap, MD, Materialize, Skeleton
+Side projects: Go, Elixir/Phoenix, Erlang, Clojure, Rust, R, Vue, Q#, ML, GraphQL, WebAssembly
+Agile/Scrum methodology, Design Patterns, Software Architecture
+API design with Swagger
+Experience in the financial service, digital marketing, e-commerce, real estate, online gaming, education, warehousing
+GitHub, VSTS, TFS, Bitbucket, Source Safe
+Azure, Google Cloud, Digital Ocean, Linode, Docker
+Team building and leadership
+
+In the position you are offering, I will continue to bring my leadership, troubleshooting and problem-solving skills to ensure the timely completion of all assignments and guarantee company success and customer satisfaction. I look forward to speaking with you about my background and qualifications at your earliest convenience.
+
+Thank you for your consideration.
