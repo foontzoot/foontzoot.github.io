@@ -3,8 +3,8 @@ INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/sinisa/Work/cile-bgd.github.io/kinaxis_cover-letter.tex
-OUTPUT kinaxis_cover-letter.log
+INPUT /home/sinisa/Work/cile-bgd.github.io/iversoft_cover-letter.tex
+OUTPUT iversoft_cover-letter.log
 INPUT deedy-cover-letter-openfont.cls
 INPUT deedy-cover-letter-openfont.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
