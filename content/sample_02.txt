@@ -11,7 +11,7 @@ Side projects: Go, Elixir/Phoenix, Erlang, Clojure, Rust, R, Vue, Q#, ML, GraphQ
 Agile/Scrum methodology, Design Patterns, Software Architecture
 API design with Swagger
 Experience in the financial service, digital marketing, e-commerce, real estate, online gaming, education, warehousing
-GitHub, VSTS, TFS, Bitbucket, Source Safe
+GitHub, VSTS, TFS, GitLab, Bitbucket, Source Safe
 Azure, Google Cloud, Digital Ocean, Linode, Docker
 Team building and leadership
 
