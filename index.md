@@ -12,9 +12,36 @@ sini.petkovic@gmail.com • 905-745-4734 • [LinkedIn](https://www.linkedin.com
 
 ### Experience
 
+#### BOND BRAND LOYALTY
+
+##### Nov 2018 – Present
+
+>Mississauga, ON | SENIOR SOFTWARE DEVELOPER
+
+- Member of Ford development team, building and maintaining Ford Canada’s internal sales and service web applications.
+- Responsible for SynapzeCX FordTube microservices solution built on ASP.NET Core, Identity Server, Angular 7, OpenId Connect, RabbitMQ, Redis, Vimeo and SQL Server.
+- Created migration script to move existing videos into SynapzeCX/Vimeo.
+- Moved code repository from TFS to Azure DevOps and implemented
+automated builds and deployments.
+- Participated in migration of the existing portfolio project into DNN powered solution.
+- Upgraded server side DevExpress and jQuery sites to VueJS.
+
+#### TITUS INC.
+
+##### Aug 2018 – Nov 2018
+
+>Ottawa, ON | SOFTWARE DEVELOPER
+
+- Member of Office Add-On development team, a highly collaborative agile team building ML powered security solutions for MS Office.
+- Responsible for Modern Office Addon solution built on ASP.NET Core,
+NodeJS/TypeScript, React, OpenId Connect, SignalR and Kestrel.
+- Created C++ wrapper for existing ASP.NET Core application running in Linux.
+- Introduced front-end tests with Mocha, Istanbul and NYC, and helped create private npm repository.
+- Participated in weekly code quality meetings, displaying and explaining current SonarQube reports.
+
 #### QUESTICA
 
-##### Oct 2016 – Present
+##### Oct 2016 – Aug 2018
 
 >Burlington, ON | SOFTWARE DEVELOPER
 
