@@ -158,11 +158,15 @@ Belgrade, Serbia
 
 SynapzeCX is Bond's flagship microservices platform built with ASP.NET Core and Angular 7. It's a message-based distributed application with many modules. I worked on user asset upload, upload approval and upload publishing, which are parts of the Resource module.  In the process, I created required tables in SQLServer, Web APIs on the server, routes, services, directives and actual pages on the client. I collaborated closely with Design and QA teams using Jira in an agile environment. Powershell tool for one-click build and local debug run I created was used by everyone in the group.
 
+---
+
 #### FordTube Migration (Bond Brand Loyalty)
 
 ##### ASP.NET Core Console App • Postman • Fiddler • SqlServer
 
 FordTube Migration is a fancy title for a script I created to migrate approximately one thousand videos from deprecated FordTube web application to the SynapzeCX platform for Ford and Lincoln. The script would scrape existing videos and relevant metadata from the old site and upload them to the SynapzeCX Resource module using existing APIs. This project also included small web redirection app, so existing links get translated into the new platform.
+
+---
 
 #### ConsumerLink Reporting Upgrade (Bond Brand Loyalty)
 
@@ -170,11 +174,15 @@ FordTube Migration is a fancy title for a script I created to migrate approximat
 
 Upgraded existing ASP.NET WebPages based reports when jQuery and DevExpress updates made them unusable. I used ASP.NET MVC 4.6 with VueJS on the client and restored reports to their original state. Well, I added a few additional themes.
 
+---
+
 #### P2P Knowledgebase Test (Bond Brand Loyalty)
 
 ##### ASP.NET MVC • jQuery • Entity Framework 6 • SQLServer
 
 I updated the current P2P platform by creating a Knowledgebase Test, a trivia type multiple answers test. It has two parts, customer test and admin reporting and test creator side. I used ASP.NET MVC 4.6 and jQuery, added additional Area and, with the help from Design and QA teams, completed the task on time.
+
+---
 
 #### Modern Office Add-On (Titus Inc.)
 
@@ -182,11 +190,15 @@ I updated the current P2P platform by creating a Knowledgebase Test, a trivia ty
 
 Modern Office Add-On is visible part to Titus Data Classification solution. It's created with TypeScript as Node app, running inside the MS Office or the Office 365. The app accesses back-end connections and ML classification software thru installed Windows service, running Kestrel web app built in ASP.NET Core, with OpenID Connect token authentication and SignalR for communication with Node app. Test coverage was 100% on the back-end and 94% on the front-end.
 
+---
+
 #### OpenBook (Questica)
 
 ##### ASP.NET Core • EF Core • ASP.NET Identity • AzureSQL • Aurelia • Gulp • Bower • Moq • NUnit • Jasmine • Swagger • Azure • SASS • VSTS
 
 Questica OpenBook software can help you build transparency and trust by communicating your data visually. Present financial and non-financial data with descriptive text, informational pop-ups, charts, and graphs. The searching, filtering and sorting tools allow you to find the right information faster and discover information that was once hidden in a spreadsheet. It is a multitenant SPA application hosted on Azure. Backend API is build using CQRS and Repository patterns.
+
+---
 
 #### Salaries Baselines/Snapshots (Questica)
 
@@ -194,11 +206,15 @@ Questica OpenBook software can help you build transparency and trust by communic
 
 Feature request for the Salaries module of the Questica Budget application. Created 30+ de-normalized snapshot tables and more than 40 stored procedures in order to capture salaries data. Updated UI to support adding snapshots. Created several comparison reports and subreports. Deployed reports to development and production environments. Optimized queries and stored procedures.
 
+---
+
 #### Financial Statements (Questica)
 
 ##### ASP.NET 4.6.2 • WebPages • WebAPI • jQuery • SQLServer • CSS • TFS
 
 Financial Statements is a module for Questica Budget application that offers the ability to configure and generate financial statements, including Income Statements, Balance Sheets, and Cash Flow Statements. All three statements include both a current statement and the ability to project forward using forecast years. With a new set of accounts for assets, liabilities and equities, this new module helps give a complete picture of your current financials and the road ahead. As a team member, I created entities, screens, menu items, reporting entities, reports, security bits, logging and unit tests for Cash Flow Statement.
+
+---
 
 #### Order Direct (The Hunt Group)
 
@@ -206,11 +222,15 @@ Financial Statements is a module for Questica Budget application that offers the
 
 Order Direct is a Web application created to help our clients with easier customer/employee rewarding with gift cards. Each client can manually enter a single recipient, or they can upload Excel, CSV or XML file with a list of recipients, gift card type, and reward value. They have access to financial reporting, production status and returned or undeliverable shipments. The web application was created in ASP.NET MVC 4.5 (hosted on Azure as App Service) and Azure SQL as a backend database. App uses Azure storage for uploaded files. Admin section is used by THG staff for fulfillment, shipping and client administration. Transactional emails are sent with Mandrill API and front-end uses Materialize library.
 
+---
+
 #### Tim Hortons & Boston Pizza Custom Gift Cards (The Hunt Group & Buy-A-Tab)
 
 ##### ASP.NET 4.5 • MVC • FTP • Azure App Service • AzureSQL • Dapper • SQLServer • GitHub
 
 Completed this project with ASP.NET MVC 4.5 to accommodate client's need for printing, fulfillment, activation and shipping of custom gift cards. The project was divided into several parts: fetching data and custom images, data manipulation for upload to the database, upload of images to the local database accessible by the printer, cards QA, data upload to client’s FTP for activation, fulfillment, shipping and invoicing. Card proxy numbers were pre-loaded in our database. We used Azure App Service for hosting and Azure SQL with Dapper for data. Due to a printer limited networking abilities; we used local SQLServer 2008 for temporary image storage.
+
+---
 
 #### Internal Inventory App (The Hunt Group)
 
@@ -218,11 +238,15 @@ Completed this project with ASP.NET MVC 4.5 to accommodate client's need for pri
 
 Maintained and updated internal Inventory System based on SQLServer 2000 and MS Access. I played a key role in the successful migration of our database from SQLServer 2000 to SQLServer 2008 and later to SQLServer 2012. In the same process, I completely redesigned front-end GUI built in MS Access to a friendlier user experience using ASP.NET WebForms. During the upgrade, I created and optimized over 200 stored procedures and redesigned over 50 reports. Shipping/receiving tasks are 30% more efficient after adding barcode and QR Code enabled products tracking. In 2012, I converted the whole system from client/server type application to a 100% web-based system with no loss in productivity. In 2014, I upgraded backend to ASP.NET API web service and front end to the ASP.NET MVC app.
 
+---
+
 #### Dell Advantage (The Hunt Group & Dell Canada)
 
 ##### RedHat • PHP 5.X • MySQL • Apache • Bootstrap • jQuery • Mandrill • GitHub
 
 Dell Advantage members get 5% back on a Dell ePromotional Card for all Dell.ca purchases over $100. This application was created with PHP and MySQL. We used Mandrill for transactional emails. Existing data was provided by several Dell departments and was combined into one single source.
+
+---
 
 #### Rogers Promotions (The Hunt Group & Rogers Canada)
 
@@ -230,17 +254,23 @@ Dell Advantage members get 5% back on a Dell ePromotional Card for all Dell.ca p
 
 I designed, architected, developed and helped maintain online Rogers Loyalty Reward program management web application. We built it in three sections; end-customer for current status, Rogers Admin for Rogers Marketing Team reporting and data insights and THG Admin for shipping, warehousing and invoicing. It handled the daily upload of about 100K de-normalized CSV records into our on-premise PostgreSQL DB. I created an ETL process for import into staging tables and transform data into appropriate tables. The program would email Rogers IT detailed explanation when it encountered inaccurate data. Designed and developed a various social network and email integration packages using provided APIs from Twitter, Facebook, Google and Mandrill.
 
+---
+
 #### City of Calgary Rebate (The Hunt Group & City of Calgary)
 
 ##### RedHat • JBoss • Java • Spring • Hibernate • PostgreSQL • Custom CSS • jQuery • Mandrill • GitHub
 
 For many years, Calgarians could get a $50 rebate from the City of Calgary for purchasing a WaterSense toilet. Unfortunately, the program is closed as of August 15, 2016. Residents could determine eligibility before applying based on the Postal Code, number of toilets already replaced in their address and the toilet model (SKU). We provided extensive reporting to the City of Calgary rebate program.
 
+---
+
 #### StoreFrontDirect (The Hunt Group)
 
 ##### Magento • PHP • MySQL • CSS
 
 StoreFrontDirect is the end-to-end eCommerce solution that has all the online sales prerequisites in one unified platform. It starts with a robust StoreFront designed for branding, usability and adaptability to the pace of your business. Hosted back-office services from logistics to payments processing to settlement – and advanced “first of its kind” analytics – are embedded to unlock the full potential of your business. Everything is easy to initiate and designed to scale with your company.
+
+---
 
 #### Property Management Social Web App (Side Project)
 
