@@ -19,7 +19,7 @@ sini.petkovic@gmail.com • 905-745-4734 • [LinkedIn](https://www.linkedin.com
 >Mississauga, ON | SENIOR SOFTWARE DEVELOPER
 
 - Member of Ford development team, building and maintaining Ford Canada’s internal sales and service web applications.
-- Responsible for SynapzeCX FordTube microservices solution built on ASP.NET Core, Identity Server, Angular 7, OpenId Connect, RabbitMQ, Redis, Vimeo and SQL Server.
+- Responsible for SynapzeCX FordTube microservices solution built on ASP.NET Core, Identity Server, Angular 7, OpenId Connect, RabbitMQ, Redis, Vimeo and SQLServer.
 - Created migration script to move existing videos into SynapzeCX/Vimeo.
 - Moved code repository from TFS to Azure DevOps and implemented
 automated builds and deployments.
@@ -47,7 +47,7 @@ NodeJS/TypeScript, React, OpenId Connect, SignalR and Kestrel.
 
 - Hired as part of Questica development team, a highly collaborative agile team building next generation cloud-based budgeting platform.
 - Helped architect, design, develop and ship OpenBook, data visualization cloud-based product in ASP.NET Core, EF Core, Azure SQL and Aurelia.
-- Maintained, upgraded, refactored and dockerized legacy application built in ASP.NET WebForms and SQL Server.
+- Maintained, upgraded, refactored and dockerized legacy application built in ASP.NET WebForms and SQLServer.
 - Transferred TFS repositories to Git based VSTS and introduced continuous integration.
 - Created and maintained various customized software and data integration services and applications.
 - Demonstrated excellent customer service and strong communication skills, both written and verbal.
@@ -122,23 +122,23 @@ Belgrade, Serbia
 
 #### PROGRAMMING
 
->C# • JavaScript • C/C++ • PHP • Python • Java • VB Script • SQL • OOP • FP • Design Patterns • Git • TFS/VSTS
+>C# • JavaScript • C/C++ • PHP • Python • Java • TypeScript • SQL/TSQL • OOP • FP • Design Patterns • Git • TFS/Azure DevOps
 
 #### WEB FRONT-END
 
->DOM • React • Angular • Aurelia • jQuery • HTML• CSS • Webpack • Gulp • Lodash • Mocha • Jasmine • Bower • Bootstrap • Material Design • SVG • Markdown • LaTeX
+>DOM • Angular • Aurelia • RxJS • HTML• CSS • VueJS • React • jQuery • Mocha • Jasmine • NPM • Bootstrap • Material Design • SVG • Markdown • LaTeX
 
 #### WEB BACK-END
 
->ASP.NET • ASP.NET Core • IIS • Kestrel • NodeJS • Express • Spring • CodeIgniter • Flask • Swagger • Nginx • Apache • Phoenix
+>ASP.NET • ASP.NET Core • IIS • Kestrel • NodeJS • Express • Spring • CodeIgniter • Flask • Swagger • NginX • Apache • Phoenix
 
 #### .NET FRAMEWORKS
 
->EF • Dapper • MVC • WebForms • MVVM • WinForms • Razor Pages • AutoMapper • MediatR • Moq • ASP.NET Identity • NUnit
+>EF • Dapper • MVC • WebForms • MVVM • WinForms • Razor Pages • AutoMapper • MediatR • CQRS • ASP.NET Identity • RabbitMQ • nUnit
 
 #### DATABASES/STORAGE
 
->SQL Server • Azure SQL • MySQL • CosmosDB • PostgreSQL • MongoDB • Firebase • Redis • RavenDB • XML • JSON • SSRS • SSAS
+>SQLServer • Azure SQL • MySQL • CosmosDB • PostgreSQL • Firebase • Redis • SSAS • XML • JSON • SSRS • Elasticsearch
 
 #### CLOUD/VIRTUALIZATION
 
@@ -146,11 +146,41 @@ Belgrade, Serbia
 
 #### INTERESTS
 
->Go • Elixir/Phoenix • Erlang • Clojure • Rust • R • Vue • Q# • ML • GraphQL • WebAssembly
+>Python • Golang • F# • Flutter • Elixir • Erlang • Clojure • Scala • Kotlin • Rust • WebAssembly • MongoDB • Magento • PowerBI • Headless CMS • AWS
 
 ---
 
 ### Projects
+
+#### SynapzeCX - User Asset Upload (Bond Brand Loyalty)
+
+##### ASP.NET Core • Web API • Angular • TypeScript • RxJS • SQLServer • EF Core • Identity Server • Redis • RabbitMQ • Docker • Azure DevOps • Mocha • Elasticsearch
+
+SynapzeCX is Bond's flagship microservices platform built with ASP.NET Core and Angular 7. It's a message-based distributed application with many modules. I worked on user asset upload, upload approval and upload publishing, which are parts of the Resource module.  In the process, I created required tables in SQLServer, Web APIs on the server, routes, services, directives and actual pages on the client. I collaborated closely with Design and QA teams using Jira in an agile environment. Powershell tool for one-click build and local debug run I created was used by everyone in the group.
+
+#### FordTube Migration (Bond Brand Loyalty)
+
+##### ASP.NET Core Console App • Postman • Fiddler • SqlServer
+
+FordTube Migration is a fancy title for a script I created to migrate approximately one thousand videos from deprecated FordTube web application to the SynapzeCX platform for Ford and Lincoln. The script would scrape existing videos and relevant metadata from the old site and upload them to the SynapzeCX Resource module using existing APIs. This project also included small web redirection app, so existing links get translated into the new platform.
+
+#### ConsumerLink Reporting Upgrade (Bond Brand Loyalty)
+
+##### ASP.NET MVC • VueJS • WebPages • DevExpress • SQLServer
+
+Upgraded existing ASP.NET WebPages based reports when jQuery and DevExpress updates made them unusable. I used ASP.NET MVC 4.6 with VueJS on the client and restored reports to their original state. Well, I added a few additional themes.
+
+#### P2P Knowledgebase Test (Bond Brand Loyalty)
+
+##### ASP.NET MVC • jQuery • Entity Framework 6 • SQLServer
+
+I updated the current P2P platform by creating a Knowledgebase Test, a trivia type multiple answers test. It has two parts, customer test and admin reporting and test creator side. I used ASP.NET MVC 4.6 and jQuery, added additional Area and, with the help from Design and QA teams, completed the task on time.
+
+#### Modern Office Add-On (Titus Inc.)
+
+##### ASP.NET Core • Kestrel • SignalR • OpenId Connect • NodeJS • TypeScript • Gulp • NUnit • Mocha • Istanbul • NYC • VSTS • SonarQube
+
+Modern Office Add-On is visible part to Titus Data Classification solution. It's created with TypeScript as Node app, running inside the MS Office or the Office 365. The app accesses back-end connections and ML classification software thru installed Windows service, running Kestrel web app built in ASP.NET Core, with OpenID Connect token authentication and SignalR for communication with Node app. Test coverage was 100% on the back-end and 94% on the front-end.
 
 #### OpenBook (Questica)
 
@@ -160,13 +190,13 @@ Questica OpenBook software can help you build transparency and trust by communic
 
 #### Salaries Baselines/Snapshots (Questica)
 
-##### ASP.NET 4.6.2 • WebPages • WebAPI • jQuery • SQL Server • Reporting Services • SQL Server Data Tools • CSS • TFS
+##### ASP.NET 4.6.2 • WebPages • WebAPI • jQuery • SQLServer • Reporting Services • SQLServer Data Tools • CSS • TFS
 
 Feature request for the Salaries module of the Questica Budget application. Created 30+ de-normalized snapshot tables and more than 40 stored procedures in order to capture salaries data. Updated UI to support adding snapshots. Created several comparison reports and subreports. Deployed reports to development and production environments. Optimized queries and stored procedures.
 
 #### Financial Statements (Questica)
 
-##### ASP.NET 4.6.2 • WebPages • WebAPI • jQuery • SQL Server • CSS • TFS
+##### ASP.NET 4.6.2 • WebPages • WebAPI • jQuery • SQLServer • CSS • TFS
 
 Financial Statements is a module for Questica Budget application that offers the ability to configure and generate financial statements, including Income Statements, Balance Sheets, and Cash Flow Statements. All three statements include both a current statement and the ability to project forward using forecast years. With a new set of accounts for assets, liabilities and equities, this new module helps give a complete picture of your current financials and the road ahead. As a team member, I created entities, screens, menu items, reporting entities, reports, security bits, logging and unit tests for Cash Flow Statement.
 
@@ -178,15 +208,15 @@ Order Direct is a Web application created to help our clients with easier custom
 
 #### Tim Hortons & Boston Pizza Custom Gift Cards (The Hunt Group & Buy-A-Tab)
 
-##### ASP.NET 4.5 • MVC • FTP • Azure App Service • AzureSQL • Dapper • SQL Server • GitHub
+##### ASP.NET 4.5 • MVC • FTP • Azure App Service • AzureSQL • Dapper • SQLServer • GitHub
 
-Completed this project with ASP.NET MVC 4.5 to accommodate client's need for printing, fulfillment, activation and shipping of custom gift cards. The project was divided into several parts: fetching data and custom images, data manipulation for upload to the database, upload of images to the local database accessible by the printer, cards QA, data upload to client’s FTP for activation, fulfillment, shipping and invoicing. Card proxy numbers were pre-loaded in our database. We used Azure App Service for hosting and Azure SQL with Dapper for data. Due to a printer limited networking abilities; we used local SQL Server 2008 for temporary image storage.
+Completed this project with ASP.NET MVC 4.5 to accommodate client's need for printing, fulfillment, activation and shipping of custom gift cards. The project was divided into several parts: fetching data and custom images, data manipulation for upload to the database, upload of images to the local database accessible by the printer, cards QA, data upload to client’s FTP for activation, fulfillment, shipping and invoicing. Card proxy numbers were pre-loaded in our database. We used Azure App Service for hosting and Azure SQL with Dapper for data. Due to a printer limited networking abilities; we used local SQLServer 2008 for temporary image storage.
 
 #### Internal Inventory App (The Hunt Group)
 
-##### MS Access • SQL Server 2000 - 2012 • ASp.NET 2.0, 3.5, 4.0, 4.5 • SQL Server Reporting Services • VB Script • Classic ASP • MVC • WebAPI • JS • jQuery • CSS • GitHub
+##### MS Access • SQLServer 2000 - 2012 • ASp.NET 2.0, 3.5, 4.0, 4.5 • SQLServer Reporting Services • VB Script • Classic ASP • MVC • WebAPI • JS • jQuery • CSS • GitHub
 
-Maintained and updated internal Inventory System based on SQL Server 2000 and MS Access. I played a key role in the successful migration of our database from SQL Server 2000 to SQL Server 2008 and later to SQL Server 2012. In the same process, I completely redesigned front-end GUI built in MS Access to a friendlier user experience using ASP.NET WebForms. During the upgrade, I created and optimized over 200 stored procedures and redesigned over 50 reports. Shipping/receiving tasks are 30% more efficient after adding barcode and QR Code enabled products tracking. In 2012, I converted the whole system from client/server type application to a 100% web-based system with no loss in productivity. In 2014, I upgraded backend to ASP.NET API web service and front end to the ASP.NET MVC app.
+Maintained and updated internal Inventory System based on SQLServer 2000 and MS Access. I played a key role in the successful migration of our database from SQLServer 2000 to SQLServer 2008 and later to SQLServer 2012. In the same process, I completely redesigned front-end GUI built in MS Access to a friendlier user experience using ASP.NET WebForms. During the upgrade, I created and optimized over 200 stored procedures and redesigned over 50 reports. Shipping/receiving tasks are 30% more efficient after adding barcode and QR Code enabled products tracking. In 2012, I converted the whole system from client/server type application to a 100% web-based system with no loss in productivity. In 2014, I upgraded backend to ASP.NET API web service and front end to the ASP.NET MVC app.
 
 #### Dell Advantage (The Hunt Group & Dell Canada)
 
