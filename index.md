@@ -2,19 +2,47 @@
 
 ## Software Developer
 
-sini.petkovic@gmail.com • 905-745-4734 • [LinkedIn](https://www.linkedin.com/in/sinisa-petkovic-b704034/) • [Twitter](https://twitter.com/SinisaPetkovic)
+sini.petkovic@gmail.com • 905-745-4734 • [LinkedIn](https://www.linkedin.com/in/sinisa-petkovic-b704034/) • [Twitter](https://twitter.com/SinisaPetkovic) • [GitHub](https://github.com/cile-bgd) • [Stack Overflow](https://stackoverflow.com/users/3758665/sinisa-petkovic)
 
 ---
 
-> I am a software developer with over 20 years of experience in writing and actually shipping software with a variety of teams in a variety of environments from 2-person startups to enterprises with more than 500 developers. In recent years, I immersed myself in full-stack web development, single-page web applications, responsive web design and web performance optimization.
+> I am a software developer with over 20 years of experience in writing and actually shipping software with a variety of teams in a variety of environments from 2-person startups to enterprises with more than 500 developers. In recent years, I immersed myself in full-stack web development, single-page web applications, responsive web design, web performance optimization and DevOps.
 
 ---
 
 ### Experience
 
+#### TOYOTA MOTOR MANUFACTURING CANADA (TUNDRA)
+
+##### Mar 2020 – Present
+
+>Cambridge, ON | SENIOR SOFTWARE DEVELOPER, CONSULTANT
+
+- Member of ICS development team, creating, maintaining, and troubleshooting ASP.NET WEB API, Angular 6 apps, Win Forms / WPF, and Oracle PL/SQL queries.
+- Migrated code base with changelog history from SVN to Git on Azure DevOps.
+- Created multiple CI/CD pipelines on Azure DevOps with Yaml, Cake, Jenkins, and WiX.
+- Converted legacy dll files into NuGet packages and created internal feed on Azure Pipelines.
+- Uncluttered Visual Studio solutions by building libraries into NuGet packages.
+- Oracle 10G to PostgreSQL migration.
+- Converted MS Word & Visio documents into Wikis on Azure DevOps.
+
+#### INDELLIENT
+
+##### Sep 2019 – Mar 2020
+
+>Oakville, ON | FULL STACK DEVELOPER, CONSULTANT
+
+- Member of OSG development team, building and maintaining OSG's integrated solutions.
+- Principal developer in OSG eBilling/eStatement web application.
+- Helped troubleshoot occasional issues in OSG maintained solutions on AWS.
+- Initiated unit and integration testing and improved logging services.
+- CI/CD with Terraform, Jenkins and AWS.
+- Upgraded and optimized multiple ETL packages.
+- .Net Core and EF Core upgrade from version 2.2 to 3.1.
+
 #### BOND BRAND LOYALTY
 
-##### Nov 2018 – Present
+##### Nov 2018 – Sep 2019
 
 >Mississauga, ON | SENIOR SOFTWARE DEVELOPER
 
@@ -66,14 +94,15 @@ NodeJS/TypeScript, React, OpenId Connect, SignalR and Kestrel.
 - Initiated unit testing, integration testing and security testing.
 - Introduced architectural change into a legacy application: a custom built Inventory system. Improved code modularity, identified and fixed performance bottlenecks, addressed security concerns.
 
-#### CRYPTOLOGIC
+#### [CRYPTOLOGIC](https://en.wikipedia.org/wiki/CryptoLogic)
 
 ##### Jan 2006 – Mar 2007
 
 >Toronto, ON | C++/MFC CLIENT SIDE SOFTWARE DEVELOPER
 
+- Member of the client-side poker development team
 - Improved user's experience by adding additional functionality to existing program according to provided specifications.
-- Fixed a major bug in existing 2D engine code, in badly implemented GDI functions.
+- Fixed a major bug in existing 2D engine code, in incorrectly implemented GDI functions.
 - Re-implemented several potential string format overruns that might have been exploited.
 - Worked closely with QA Team in ironing out issues and bugs.
 
@@ -122,35 +151,49 @@ Belgrade, Serbia
 
 #### PROGRAMMING
 
->C# • JavaScript • C/C++ • PHP • Python • Java • TypeScript • SQL/TSQL • OOP • FP • Design Patterns • Git • TFS/Azure DevOps
+>C# • JavaScript • C/C++ • PHP • Python • Java/Scala • TypeScript • SQL/TSQL • OOP • FP • Design Patterns • Git • SVN • TFS • Jira • Azure DevOps • Gliffy • MS Visio • Slack • MS Teams • Discord • Basecamp
 
 #### WEB FRONT-END
 
->DOM • Angular • Aurelia • RxJS • HTML• CSS • VueJS • React • jQuery • Mocha • Jasmine • NPM • Bootstrap • Material Design • SVG • Markdown • LaTeX
+>DOM • Angular • Aurelia • RxJS • HTML• CSS • VueJS • React • jQuery • Mocha • Jasmine • NPM • Bootstrap • Material Design • SVG • Markdown • LaTeX • Balsamiq Mockups • GIMP • Adobe Photoshop • Adobe Illustrator
 
 #### WEB BACK-END
 
->ASP.NET • ASP.NET Core • IIS • Kestrel • NodeJS • Express • Spring • CodeIgniter • Flask • Swagger • NginX • Apache • Phoenix
+>ASP.NET • ASP.NET Core • IIS • Kestrel • NodeJS/Express • Spring • CodeIgniter • Flask • Swagger • NginX • Apache • Phoenix
 
 #### .NET FRAMEWORKS
 
->EF • Dapper • MVC • WebForms • MVVM • WinForms • Razor Pages • AutoMapper • MediatR • CQRS • ASP.NET Identity • RabbitMQ • nUnit
+>EF • Dapper • Npsql • MVC • WebForms • MVVM • WinForms • Razor Pages • AutoMapper • MediatR • CQRS • ASP.NET Identity • RabbitMQ • nUnit
 
 #### DATABASES/STORAGE
 
->SQLServer • Azure SQL • MySQL • CosmosDB • PostgreSQL • Firebase • Redis • SSAS • XML • JSON • SSRS • Elasticsearch
+>SQLServer • Azure SQL • MySQL • CosmosDB • PostgreSQL • Firebase • Redis • SSAS • XML • JSON • SSRS • Elasticsearch • MongoDB
 
 #### CLOUD/VIRTUALIZATION
 
->Azure • DigitalOcean • Linode • GCP • Docker • Vagrant
+>Azure • AWS • Docker • DigitalOcean • Linode • GCP • VMware
 
 #### INTERESTS
 
->Python • Golang • F# • Flutter • Elixir • Erlang • Clojure • Scala • Kotlin • Rust • WebAssembly • MongoDB • Magento • PowerBI • Headless CMS • AWS
+>GraphQL • Golang • Rust • Elixir • Erlang • Clojure • Kotlin • WebAssembly • Magento
 
 ---
 
 ### Projects
+
+#### OSG eBilling/eStatement Solution (Indellient)
+
+##### ASP.NET Core • Web API • Razor Pages • PostgreSQL • EF Core • Npgsql • ASP.NET Core Identity • JavaScript • jQuery DataTable • VueJs • Redis • AWS • GitHub • Jenkins • Terraform • nUnit • Jira • Slack
+
+OSG’s eBilling/eStatement solution is designed to extend beyond paper, providing a data-driven electronic presentment solution that simplifies the delivery process, reduces costs, and improves efficiency. This includes:
+
+- An online portal for accessing accurate replicas of end-customer's bill/statement and an archive with custom retention periods
+- Seamless interface integration
+- Self-service administrative capabilities
+- Dynamic reporting and search capabilities
+- Security and compliance with industry standards to protect sensitive information
+
+---
 
 #### SynapzeCX - User Asset Upload (Bond Brand Loyalty)
 
