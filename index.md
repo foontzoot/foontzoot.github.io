@@ -6,15 +6,82 @@ sini.petkovic+github@gmail.com • 905-7XX-XX34 • [LinkedIn](https://www.linke
 
 ---
 
-> I am a software developer with over 20 years of experience in writing and actually shipping software with a variety of teams in a variety of environments from 2-person startups to enterprises with more than 500 developers. In recent years, I immersed myself in full-stack web development, single-page web applications, responsive web design, web performance optimization and DevOps.
+> My name is Sinisa Petkovic, and I am a software developer with over 20 years of experience in writing and shipping software with various teams in a variety of environments. I immersed myself in full-stack web development, single-page web applications, responsive web design, and cloud computing in recent years. I'm currently working on obtaining AZ-204 certification.
+
+---
+### Highlights:
+- Extensive and diverse experience in .Net technologies, SQL Server, SQL Azure, PostgreSQL and Microsoft Azure Cloud Computing.
+- Have experience in Azure Cloud Services (PaaS & IaaS), Functions, Durable Functions, Cognitive Search, Storage, Web Apps, Active Directory, Application Insights, Logic Apps, and Data Factory, Service Bus, Key Vault, Visual Studio Online (VSO).
+- Hands-on experience in AWS with Amazon EC2, Amazon Lambda, Amazon CloudSearch, Amazon RDS and Amazon Lightsail
+- Designed and developed Cloud Service projects and deployed them to Web Apps, PaaS, and IaaS.
+- Used SQL Azure extensively for database needs in various applications.
+- Hands-on experience in SSIS, SQL Server Import and Export Data, SSRS, SQL Server Job Agent, Redis, Elasticsearch, RabbitMQ, MSMQ, Docker.
+- Extensively worked on SQL, T-SQL, stored procedures, functions, triggers, views, joins, schema, and transactions.
+- Hands-on experience in .NET Framework, .NET Core, C#, ADO.NET, Entity Framework, LINQ, ASP.NET, MVC, Razor Pages, REST API, Angular, React, JQuery, Vue, JavaScript, TypeScript, Python, Java, C++, HTML, Bootstrap, CSS.
+- Proficient in using .NET Threading, Delegates, Events, Generics, Collections, Exception Handling, Transactions, Reflection, and Serialization.
+- Good knowledge of S.O.L.I.D. design, OOP, Data Structures & Design Patterns.
+- Exploring ML/AI, Solidity, Blockchain, Smart Contracts. Eager to learn new technologies with a focus on delivering reliable business solutions.
 
 ---
 
 ### Experience
 
+#### LawPRO (Nimbus)
+
+##### Nov 2021 - Present
+
+>Remote | SENIOR SOFTWARE ENGINEER, CONSULTANT
+
+- Member of Nimbus consulting team, building and maintaining LawPRO's TitlePLUS site.
+- Full-stack development in .Net Core, ReactJS, MUI, Okta and AWS.
+- More coming soon...
+
+#### Infosys (PwC Global)
+
+##### Aug 2021 - Nov 2021
+
+>Remote | TECH LEAD, CONSULTANT
+
+- Member of Infosys consulting team, building and maintaining PwC Global Compliance Service.
+- Full-stack development in .Net Core, Angular 10+ with PrimeNG and Azure Cloud.
+- Refactored Angular services API calls to fetch data into models.
+- Introduced state management with NgRx.
+- Created and refactored restful APIs following SOLID and DRY principles.
+- Altered and created numerous tables, relationships and stored procedures.
+- Provided guidance, mentoring, and one-on-one pull request reviews to junior team members.
+- Worked close with Software Architects Team in planning and design of new features.
+- Introduced Tech-Debt stories/features to improve code quality every sprint.
+
+#### Freedom Mopbile
+
+##### Apr 2021 - Aug 2021
+
+>Remote | SENIOR SOFTWARE ENGINEER, CONSULTANT
+
+- Member of Freedom Mobile Team, building and maintaining Freedom Mobile API services.
+- Converted numerous API calls to AWS API Gateway with Lambdas, PostgreSQL and DynamoDB.
+- Helped in refactoring monolithic back-end solutions into microservices-ready solutions following SOLID and DRY principles.
+- Maintained and created several CI/CD pipelines with Jenkins and Terraform.
+- Recreated AWS hosted PostgreSQL database based on existing on-prem SQL Server database using the code-first method.
+
+#### autoTRADER.ca
+
+##### Sep 2020 – Apr 2021
+
+>Remote | SENIOR SOFTWARE ENGINEER, CONSULTANT
+
+- Member of 1-Source Team, building and maintaining AutoTrader 1-Source solutions.
+- Successfully created, tested and released Azure Durable Function with one main orchestrator and two sub-orchestrators to backup and clear old (sold or removed) ads from Cosmos DB, SQL Server, Table Storage, Blob Storage and Search Indexes - cleared more than 4.5 million old entries.
+- Worked on numerous data transformation projects utilizing Functions, Durable Functions, Service Bus, Data Factory, Logic Apps, Azure Storage, Cosmos DB, SQL Server.
+- Excelled at clearing the tech debt, refactoring, version upgrades. 
+- Created/upgraded several CI/CD pipelines on Azure DevOps with YAML and Terraform.
+- Updated numerous legacy packages and pushed them to the NuGet internal feed.
+- Participated in software releases and regression testing. 
+- Fixed several bugs in the front-end React application.
+
 #### TOYOTA MOTOR MANUFACTURING CANADA (TUNDRA)
 
-##### Mar 2020 – Present
+##### Mar 2020 – Sep 2020
 
 >Cambridge, ON | SENIOR SOFTWARE DEVELOPER, CONSULTANT
 
