@@ -10,4 +10,4 @@ xelatex cv_12.tex
 
 - 2018-05-09 --> Format change from html/json to LaTeX and Markdown.
 
->Navigate to https://cile-bgd.github.io/ to see my updated resume.
+>Navigate to https://foontzoot.github.io/ to see my updated resume.

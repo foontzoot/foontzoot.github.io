@@ -2,7 +2,7 @@
 
 ## Software Developer
 
-sini.petkovic@gmail.com • 905-745-4734 • [LinkedIn](https://www.linkedin.com/in/sinisa-petkovic-b704034/) • [Twitter](https://twitter.com/SinisaPetkovic) • [GitHub](https://github.com/cile-bgd) • [Stack Overflow](https://stackoverflow.com/users/3758665/sinisa-petkovic)
+sini.petkovic+github@gmail.com • 905-7XX-XX34 • [LinkedIn](https://www.linkedin.com/in/sinisa-petkovic-b704034/) • [Twitter](https://twitter.com/SinisaPetkovic) • [GitHub](https://github.com/foontzoot) • [Stack Overflow](https://stackoverflow.com/users/3758665/sinisa-petkovic)
 
 ---
 
