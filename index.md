@@ -52,7 +52,7 @@
 - Worked close with Software Architects Team in planning and design of new features.
 - Introduced Tech-Debt stories/features to improve code quality every sprint.
 
-#### Freedom Mopbile
+#### FREEDOM MOBILE
 
 ##### Apr 2021 - Aug 2021
 
