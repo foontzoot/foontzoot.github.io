@@ -6,3 +6,7 @@
 
 # ignore fonts directory
 **/fonts
+
+# ignore latex build files
+*.out
+*.log
