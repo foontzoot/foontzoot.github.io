@@ -1,5 +1,17 @@
 # My LaTeX Resume
 
+To install `latex` in Ubuntu run:
+
+``` sh
+sudo apt install latex
+```
+
+To install `xelatex` in Ubuntu run:
+
+``` sh
+sudo apt install texlive-xetex
+```
+
 To build and create PDF, run the following:
 
 ``` latex
