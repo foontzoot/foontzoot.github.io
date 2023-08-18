@@ -15,7 +15,7 @@
 %	COLORS
 %----------------------------------------------------------------------------------------
 
-\usepackage[usenames,dvipsnames]{xcolor} % Required for custom colors
+\usepackage[usenames,dvipsnames,svgnames]{xcolor} % Required for custom colors
 
 \definecolor{primary}{HTML}{2b2b2b} % The primary document color for content text
 \definecolor{headings}{HTML}{6A6A6A} % The color of the large sections
@@ -118,3 +118,21 @@ Page \thepage\ of \pageref{LastPage}
 %----------------------------------------------------------------------------------------
 
 \newcommand{\dotnet}{.NET}
+
+%----------------------------------------------------------------------------------------
+%	RATING
+%----------------------------------------------------------------------------------------
+
+\usepackage{tabularx}
+\usepackage{tikz}
+
+\newcommand\Mark[2][5]{%
+  \rlap{\tikz[baseline=(current bounding box.south)]{
+        \shade[left color=LightGrey, right color=DarkGrey]
+               (0,0) rectangle ++(#1*#2/100,0.3);
+    }%
+  }%
+}
+
+%----------------------------------------------------------------------------------------
+
