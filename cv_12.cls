@@ -28,9 +28,9 @@
 
 \usepackage{fontspec} % Required for specifying custom fonts in XeLaTeX
 
-\setmainfont[Color=primary, Path = fonts/Lato/,BoldItalicFont=Lato-Italic,BoldFont=Lato-Regular,ItalicFont=Lato-LightItalic]{Lato-Light} % The primary font for content text; defines bold, italic and bold-italic as well
+\setmainfont[Color=primary, Path=fonts/Lato/,BoldItalicFont=Lato-Italic,BoldFont=Lato-Regular,ItalicFont=Lato-LightItalic]{Lato-Light} % The primary font for content text; defines bold, italic and bold-italic as well
 
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/Raleway/static/]{Raleway-ExtraLight} % The font used where \sfffamily is called
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path=fonts/Raleway/static/]{Raleway-ExtraLight} % The font used where \sfffamily is called
 
 %----------------------------------------------------------------------------------------
 %	LAST UPDATED COMMAND
@@ -52,16 +52,18 @@ Last Updated on \today % Last Updated text
 %----------------------------------------------------------------------------------------
 
 \newcommand{\namesection}[3]{ % Defines the command for the main heading
-\centering{ % Center the name
-\fontsize{40pt}{60pt} % Font size
-\fontspec[Path = fonts/Lato/]{Lato-Light}\selectfont #1 % First name font
-\fontspec[Path = fonts/Lato/]{Lato-Regular}\selectfont #2 % Last name font
-} \\[5pt] % Whitespace between the name and contact information
-\centering{ % Center the contact information
-\color{headings} % Use the headings color
-\fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3} % Contact information font
-\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
-\vspace{-5pt} % Reduce whitespace after the rule slightly
+    \centering{ % Center the name
+        \fontsize{38pt}{58pt} % Font size
+        \fontspec[Path = fonts/Lato/]{Lato-Thin}\selectfont #1 % First name font
+        \fontspec[Path = fonts/Lato/]{Lato-Light}\selectfont #2 % Last name font
+    } \\
+    \vspace{5pt} % Whitespace between the name and contact information
+    \centering{ % Center the contact information
+        \color{headings} % Use the headings color
+        \fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{12pt}{14pt}\selectfont #3
+    } % Contact information font
+    \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
+    \vspace{-8pt} % Reduce whitespace after the rule slightly
 }
 
 %----------------------------------------------------------------------------------------
@@ -75,22 +77,22 @@ Last Updated on \today % Last Updated text
 \newcommand{\sectionspace}{\vspace{8pt}} % Defines a command to add a set amount of space after sections and subsections
 
 \titleformat{\section}{ % Customize the large section titles
-\color{headings}\scshape\fontspec[Path = fonts/Lato/]{Lato-Light}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
+\color{headings}\fontspec[Path = fonts/Lato/]{Lato-Light}\fontsize{16pt}{24pt}\selectfont\raggedright\uppercase}{}{0em}{}
 
 \titleformat{\subsection}{ % Customize the subsections and places worked/studied titles
-\color{subheadings}\fontspec[Path = fonts/Lato/]{Lato-Regular}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\color{subheadings}\fontspec[Path = fonts/Lato/]{Lato-Regular}\fontsize{10pt}{10pt}\selectfont\uppercase}{}{0em}{}
 
 \newcommand{\runsubsection}[1]{ % Used for creating subsections where a description is required on the same line
-\color{subheadings}\fontspec[Path = fonts/Lato/]{Lato-Regular}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\color{subheadings}\fontspec[Path = fonts/Lato/]{Lato-Light}\fontsize{9pt}{9pt}\selectfont\uppercase {#1} \normalfont}
 
 \newcommand{\descript}[1]{ % Used for describing the subsection either on the same line or underneath
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
 
 \newcommand{\location}[1]{ % Used for specifying a duration and/or location under a subsection
-\color{headings}\raggedright\fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+\color{headings}\raggedright\fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{9pt}{11pt}\selectfont {#1 \\} \normalfont}
 
 %----------------------------------------------------------------------------------------
-%	SECTION TITLE STYLING AND SPACING
+%	ITEMS STYLING AND SPACING
 %----------------------------------------------------------------------------------------
 
 \newenvironment{tightitemize} % Defines the tightitemize environment which modifies the itemize environment to be more compact
@@ -110,3 +112,9 @@ Last Updated on \today % Last Updated text
 \color{date}\fontspec[Path = fonts/Raleway/static/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
 Page \thepage\ of \pageref{LastPage}
 \end{textblock}}
+
+%----------------------------------------------------------------------------------------
+%	.NET COMMAND
+%----------------------------------------------------------------------------------------
+
+\newcommand{\dotnet}{.NET}

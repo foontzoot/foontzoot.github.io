@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.8.14)  14 AUG 2023 23:27
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.8.18)  18 AUG 2023 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -256,9 +256,8 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 
 Package fontspec Info: Font family 'Lato-Light(0)' created for font
 (fontspec)             'Lato-Light' with options
-(fontspec)             [Ligatures=TeX,Color=primary,Path =
-(fontspec)             fonts/Lato/,BoldItalicFont=Lato-Italic,BoldFont=Lato-Reg
-ular,ItalicFont=Lato-LightItalic].
+(fontspec)             [Ligatures=TeX,Color=primary,Path=fonts/Lato/,BoldItalic
+Font=Lato-Italic,BoldFont=Lato-Regular,ItalicFont=Lato-LightItalic].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -297,8 +296,7 @@ Package fontspec Info: Raleway-ExtraLight scale = 0.9585720879773501.
 Package fontspec Info: Font family 'Raleway-ExtraLight(0)' created for font
 (fontspec)             'Raleway-ExtraLight' with options
 (fontspec)             [Ligatures=TeX,Scale=MatchLowercase,Mapping=tex-text,Pat
-h
-(fontspec)             = fonts/Raleway/static/].
+h=fonts/Raleway/static/].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -536,6 +534,18 @@ latn;language=dflt;"
 latn;language=dflt;+smcp;"
 
 
+Package fontspec Info: Font family 'Lato-Thin(0)' created for font 'Lato-Thin'
+(fontspec)             with options [Path = fonts/Lato/].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Lato/Lato-Thin]/OT:script=latn;language=dflt;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
 Package fontspec Info: Font family 'Lato-Light(1)' created for font
 (fontspec)             'Lato-Light' with options [Path = fonts/Lato/].
 (fontspec)              
@@ -545,18 +555,6 @@ Package fontspec Info: Font family 'Lato-Light(1)' created for font
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"[fonts/Lato/Lato-Light]/OT:script=latn;language=dflt
 ;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
-
-Package fontspec Info: Font family 'Lato-Regular(0)' created for font
-(fontspec)             'Lato-Regular' with options [Path = fonts/Lato/].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[fonts/Lato/Lato-Regular]/OT:script=latn;language=df
-lt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 
@@ -575,45 +573,47 @@ Package fontspec Info: Font family 'Raleway-Medium(0)' created for font
 ;language=dflt;+smcp;"
 
 
-LaTeX Font Warning: Font shape `TU/Lato-Light(0)/m/sc' undefined
-(Font)              using `TU/Lato-Light(0)/m/n' instead on input line 48.
-
-
-LaTeX Font Warning: Font shape `TU/Lato-Light(1)/m/sc' undefined
-(Font)              using `TU/Lato-Light(1)/m/n' instead on input line 48.
-
-
-LaTeX Font Warning: Font shape `TU/Lato-Regular(0)/b/n' undefined
-(Font)              using `TU/Lato-Regular(0)/m/n' instead on input line 64.
+Package fontspec Info: Font family 'Lato-Regular(0)' created for font
+(fontspec)             'Lato-Regular' with options [Path = fonts/Lato/].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[fonts/Lato/Lato-Regular]/OT:script=latn;language=df
+lt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 77.
+(Font)              <7> on input line 90.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 77.
-
-Underfull \hbox (badness 1953) in paragraph at lines 163--164
-[]\TU/Lato-Light(0)/m/sc/10 Extensively worked on SQL, T-SQL, stored procedures
-, functions, triggers,
- []
-
+(Font)              <5> on input line 90.
 [1
 
-] 
+]
+Underfull \hbox (badness 10000) in paragraph at lines 308--316
+
+ []
+
+
 AED: lastpage setting LastPage
 [2] (./cv_12.aux)
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+Package rerunfilecheck Warning: File `cv_12.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: File `cv_12.out' has not changed.
-(rerunfilecheck)             Checksum: 706CB521108B5CCD4D2CB9ED22D000A8;1673.
+Package rerunfilecheck Info: Checksums for `cv_12.out':
+(rerunfilecheck)             Before: 4BBDA1591DA97671FEA05A57F7347D1E;1441
+(rerunfilecheck)             After:  142D6E673D51B19EAE94431FFC0E5BFA;1525.
  ) 
 Here is how much of TeX's memory you used:
- 12006 strings out of 478190
- 241100 string characters out of 5854827
- 622376 words of memory out of 5000000
- 32448 multiletter control sequences out of 15000+600000
- 469979 words of font info for 74 fonts, out of 8000000 for 9000
+ 12004 strings out of 478190
+ 240845 string characters out of 5854827
+ 626108 words of memory out of 5000000
+ 32446 multiletter control sequences out of 15000+600000
+ 469971 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 88i,5n,136p,252b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 88i,5n,136p,234b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv_12.pdf (2 pages).
