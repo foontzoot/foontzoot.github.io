@@ -1,0 +1,25 @@
+Hi Mathieu,
+
+Enclosed is my resume, which I am sending in response to your recent ad for a Senior Back-end Software Developer. I have extensive experience in software development and design, and my professional background will satisfy the requirements of this position.
+
+I have consistently met the challenges presented in this field over the past twenty years as a professional Software Developer. My attention to detail, organizational skills and strong communication abilities have allowed me to lead and complement software development teams and ensure the success of each project assigned to me.
+
+The following highlights my experience and abilities:
+• Over ten years in ASP.NET/.NET Core and related technologies: Threading, Delegates, Events, Generics,
+Collections, Exceptions, Transactions, Reflection, Serialization, RESTful API, EF/EFCore, Dapper, LINQ,
+CQRS, MSMQ, IoC/DI, MediatR, FluentValidations, SignalR, Identity, xUnit, nUnit…
+• More than five years in JS/TS (NodeJS/Express), Python (Django), Java (Spring), and C++.
+• Extensive database experience: SQL Server, MySQL, PostgreSQL, Azure SQL, Oracle, MongoDB, CosmosDB, DynamoDB, neo4j, reporting…
+• Front-end: React, Angular, Flutter, Redux, NgRx, WPF, HTML/CSS, HTMX, MUI, PrimeNG, MAUI, AvaloniaUI, Razor Pages, WebForms, SVG, Markdown, LaTeX, AsposePDF, Adobe…
+• Smaller projects/POCs: Go, Rust, Vue, ML/AI, GraphQL, WebAssembly…
+• Messaging (RabbitMQ, SQS, Azure Queue Storage…), Pub/Sub (SNS, Azure Service Bus…), Events, Notifications…
+• Agile/Scrum methodology, OOP, Functional Programming, Data Structures, Design Patterns, Software Architecture…
+• Experience in financial service, insurance, digital marketing, e-commerce, real estate, online gaming, education, and fulfillment.
+• Team building and leadership.
+
+In the position you offer, I will continue to bring my leadership, troubleshooting and problem-solving skills to ensure the timely completion of all assignments and guarantee company success and
+customer satisfaction. I look forward to discussing my background and qualifications with you at your earliest convenience.
+
+I appreciate your consideration.
+
+Sincerely,

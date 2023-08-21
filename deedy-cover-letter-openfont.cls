@@ -29,8 +29,8 @@
 
 % Set main fonts
 \usepackage{fontspec}
-\setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-Italic,BoldFont=Lato-Regular,ItalicFont=Lato-LightItalic]{Lato-Light}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
+\setmainfont[Color=primary, Path = fonts/Lato/,BoldItalicFont=Lato-Italic,BoldFont=Lato-Regular,ItalicFont=Lato-LightItalic]{Lato-Light}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/Raleway/static/]{Raleway-ExtraLight}
 
 % Date command
 \usepackage[absolute]{textpos}
@@ -38,7 +38,7 @@
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
 \newcommand{\lastupdated}{\begin{textblock}{60}(155,5)
-\color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
+\color{date}\fontspec[Path = fonts/raleway/static/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
 Last Updated on \today
 \end{textblock}}
 
@@ -46,12 +46,12 @@ Last Updated on \today
 \newcommand{\namesection}[3]{
 \centering{
 \fontsize{40pt}{60pt}
-\fontspec[Path = fonts/lato/]{Lato-Thin}\selectfont #1 
-\fontspec[Path = fonts/lato/]{Lato-Light}\selectfont #2
+\fontspec[Path = fonts/Lato/]{Lato-Thin}\selectfont #1 
+\fontspec[Path = fonts/Lato/]{Lato-Light}\selectfont #2
 } \\[5pt]
 \centering{
 \color{headings}
-\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
+\fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
 \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.0pt}}
 \vspace{0pt}
 }
@@ -64,38 +64,34 @@ Last Updated on \today
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/lato/]{Lato-Light}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
+\scshape\fontspec[Path = fonts/Lato/]{Lato-Light}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
 
 % Subeadings command
 \titleformat{\subsection}{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Regular}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\color{subheadings}\fontspec[Path = fonts/Lato/]{Lato-Regular}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
 
 \newcommand{\runsubsection}[1]{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Regular}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\color{subheadings}\fontspec[Path = fonts/Lato/]{Lato-Regular}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
 % Descriptors command
 \newcommand{\descript}[1]{
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
 
 % Location command
 \newcommand{\location}[1]{
-\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
+\color{headings}\raggedright\fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
 % Bullet Lists with fewer gaps command
-\newenvironment{tightemize}{
+\newenvironment{tightitemize}{
 \vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}
 {\end{itemize}\vspace{-\topsep}}
 
 % Cover Letter
-\newcommand{\companyname}[1]{\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{12pt}{14pt}\selectfont {#1 \\} \normalfont}
+\newcommand{\companyname}[1]{\raggedright\fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{12pt}{14pt}\selectfont {#1 \\} \normalfont}
+\newcommand{\companyaddress}[1]{\raggedright\fontspec[Path = fonts/Raleway/static/]{Raleway-Light}\fontsize{11pt}{13pt}\selectfont {#1 \\}\mbox{}\\\mbox{}\\ \normalfont}
+\newcommand{\currentdate}[1]{\raggedleft\fontspec[Path = fonts/Raleway/static/]{Raleway-Light}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\newcommand{\lettercontent}[1]{\raggedright\fontspec[Path = fonts/Raleway/static/]{Raleway-Light}\fontsize{10pt}{12pt}\selectfont {#1 \\}\mbox{}\\ \normalfont}
+\newcommand{\closing}[1]{\raggedright\fontspec[Path = fonts/Raleway/static/]{Raleway-Light}\fontsize{10pt}{12pt}\selectfont {#1 \\}\mbox{}\\\mbox{}\\ \normalfont}
+\newcommand{\signature}[1]{\raggedright\fontspec[Path = fonts/Raleway/static/]{Raleway-Light}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}
 
-\newcommand{\companyaddress}[1]{\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{11pt}{13pt}\selectfont {#1 \\}\mbox{}\\\mbox{}\\ \normalfont}
-
-\newcommand{\currentdate}[1]{\raggedleft\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
-
-% Letter content command
-\newcommand{\lettercontent}[1]{\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{11pt}{13pt}\selectfont {#1 \\}\mbox{}\\ \normalfont}
-
-\newcommand{\closing}[1]{\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{11pt}{13pt}\selectfont {#1 \\}\mbox{}\\\mbox{}\\ \normalfont}
-
-\newcommand{\signature}[1]{\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Light}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\newcommand{\sectionspace}{\vspace{10pt}}

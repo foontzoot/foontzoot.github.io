@@ -6,7 +6,7 @@
 
 ---
 
-> My name is Sinisa Petkovic, and I am a software developer with over 20 years of experience in writing and shipping software with various teams in various environments. I immersed myself in full-stack web development, on-prem back-end services, as well as on Azure and AWS, single-page web applications, responsive web design, and cloud computing in recent years. I'm always looking into new ways of accomplishing things and technologies I can utilize in personal projects as a POC. I like developing in Go and Rust for back-end services and Flutter and Svelte for the front-end.
+> My name is Sinisa Petkovic, and I am a software developer with over 20 years of experience in writing and shipping software with various teams in various environments. In recent years, I immersed myself in full-stack web development, back-end services (Azure, AWS, on-prem), front-end SPAs, and cloud computing. I'm always looking into new ways of accomplishing things and technologies.
 
 ---
 
@@ -16,13 +16,13 @@
 - Experience in Azure Cloud Services (PaaS & IaaS), Functions, Durable Functions, Cognitive Search, Storage, App Service, Active Directory, Application Insights, Logic Apps, Data Factory, Service Bus, Key Vault, Azure DevOps.
 - Hands-on experience in AWS with IAM, EC2, S3, Lambda, SQS, SNS, Aurora, Event Bridge, Secrets Manager, DynamoDB, Code Pipeline, Cloud Watch, Document DB, Memory DB, Step Functions, LightSail, and API Gateway.
 - Designed and developed Cloud Service projects and deployed them to Web Apps, PaaS, and IaaS.
-- Used SQL Server, SQL Azure, Cosmos DB, DynamoDB, PostgreSQL, MongoDB, MySQL, Neo4j, Apache CouchDB, Apache Cassandra, Oracle, SQLite, IBM DB2 and Firebase extensively for database needs in various applications.
+- Used SQL Server, SQL Azure, Cosmos DB, DynamoDB, PostgreSQL, MongoDB, MySQL, SharePoint, Neo4j, Apache CouchDB, Apache Cassandra, Oracle, SQLite, IBM DB2 and Firebase extensively for database needs in various applications.
 - Hands-on experience in Azure Data Factory, SSIS, and SQL Server Job Agent.
 - Extensively worked on SQL, T-SQL, stored procedures, functions, triggers, views, joins, schema, and transactions.
 - Extensive and proven experience in .NET Framework, .NET Core, C#, Go, TypeScript, JavaScript, Python, ADO.NET, EF, LINQ, ASP.NET, WCF, MVC, RESTful API, CQRS, React, Angular, jQuery, Java, C++, HTML, CSS.
 - Proficient in using .NET Threading, Delegates, Events, Generics, Collections, Exception Handling, Transactions, Reflection, and Serialization.
-- Good knowledge of SOLID design, OOP, IOC, Data Structures & Design Patterns.
-- I am exploring Functional Programming, Machine Learning, and Internet of Things (IoT) technologies.
+- Good knowledge of SOLID design, OOP, FP, IOC, Data Structures & Design Patterns.
+- I am exploring Web3, Machine Learning/Artificial Intelligence, Crypto/Blockchain, and Internet of Things (IoT) technologies.
 - Eager to learn innovative technologies focusing on delivering reliable business solutions.
 
 ---
