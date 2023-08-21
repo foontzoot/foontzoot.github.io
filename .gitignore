@@ -10,3 +10,4 @@
 # ignore latex build files
 *.out
 *.log
+*.aux
