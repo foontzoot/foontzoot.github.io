@@ -232,35 +232,59 @@ Belgrade, Serbia
 
 #### PROGRAMMING
 
->C# • JavaScript • TypeScript • Dart • C/C++ • Go • PHP • Python • Java/Scala • SQL/TSQL • OOP • FP • Design Patterns • Git • GitHub • SVN • TFS • Jira • Azure DevOps
+>C# • JS/TS • GO • C/C++ • Python • Java • Git • Rust • SQL • OOP • SOLID • Design Patterns • Data Structures • Bash • Powershell
 
-#### UX
+#### FRONT-END
 
->React • Angular • Flutter • HTML• CSS • Svelte • Alpine • Vue • jQuery • NPM • MaterialUI • PrimeNG • SVG • Markdown • LaTeX • Balsamiq Mockups • GIMP • Adobe Photoshop • Adobe Illustrator
+>React • Angular • Flutter • Redux • NgRx • WPF • HTML/CSS • HTMX • MUI • PrimeNG • MAUI • AvaloniaUI • RazorPages • WebForms • SVG • Markdown • LaTeX • AsposePDF • Adobe
 
 #### BACK-END
 
->.NET Core • ASP.NET • IIS • Kestrel • NodeJS/Express • Spring • CodeIgniter • Django • Flask • Swagger • NginX • Apache • Phoenix
+>.NETCore • ASP.NET • RESTful API • MVC • Docker • Node/Express • WCF/SOAP • gRPC • Django • Swagger • OAuth • Spring • WebAssembly
 
-#### .NET FRAMEWORKS
+#### .NET
 
->EF/EF Core • Dapper • Npsql • MVC • WebForms • MVVM • WinForms • Razor Pages • AutoMapper • MediatR • Autofac • xUnit • nUnit • IText • AsposePDF
+>Threading • Delegates • Events • Generics • Collections • Exceptions • Transactions • Reflection • Serialization • Entity Framework • Dapper • LINQ • CQRS • MSMQ • IoC/DI • MediatR • WinForms • WebForms • Fluent Validations • SignalR • Identity • xUnit • nUnit
 
-#### DATABASES/STORAGE
+#### DATABASES
 
->SQLServer • Azure SQL • MySQL • Azure Table Storage • Azure Blob Storage • CosmosDB • DynamoDB • AWS S3 • PostgreSQL • Sharepoint • MongoDB • Firebase • Oracle • SQLite • neo4j • RavenDB • CouchDB • Cassandra • Redis • SSAS • IBM DB2 • XML • JSON • SSRS • Elasticsearch
+>SQLServer • Azure SQL • MySQL • Oracle • PostgreSQL • CosmosDB • DynamoDB • SQLite • SharePoint • MongoDB • Firebase • Redis • RavenDB • neo4j • CouchDB
 
 #### CLOUD/VIRTUALIZATION
 
->Azure • AWS • Docker/K8s • DigitalOcean • Linode • GCP • VMware
+>Azure • AWS • GCP • Firebase • Docker/K8s • DigitalOcean • Linode • VMware
+
+#### MS AZURE
+
+>Functions • DurableFunctions • ServiceBus • KeyVault • Table Storage • Blob Storage • Queue Storage • AD • Application Insights • Cognitive Search • DevOps • Api Management • AppService • DataFactory
+
+#### AWS
+
+>IAM • EC2 • S3 • Lambda • SQS • SNS • Aurora • EventBridge • SecretsManager • CodePipeline • CloudWatch • StepFunctions • API Gateway
+
+#### DevOps
+
+>GitHub Actions • AWS CodePipeline • Azure Pipelines • Artifacts • NuGet • NPM • Ansible • Terraform • Jenkins • WiX • Cake
 
 #### INTERESTS
 
->GraphQL • Rust • Elixir • Erlang • Zig • Clojure • OCaml • Kotlin • WebAssembly • Magento
+>GraphQL • Rust • Elixir • Erlang • Zig • Clojure • OCaml • Kotlin • WebAssembly
 
 ---
 
 ### Projects
+
+#### User Profile & User Sync (LawPRO/TitlePLUS)
+
+##### .NET Core • AWS • SecretsManager • API Gateway • Lambda • SQS • SNS • SES • Okta • Aurora (MySQL) • GitHub • GitHub Actions
+
+Solved the issue of mismatched user profile information between LawPRO and TitlePLUS by introducing the `user changed event` Okta hook. Okta calls AWS API Gateway that invokes `Lambda -> SQS -> Lambda -> DB update -> SNS` flow. I also designed and created the `User Profile` section in the front-end React app that allows users to update their information.
+
+#### Custom Forgot Password / Username (LawPRO/TitlePLUS)
+
+##### .NET Core • AWS • SecretsManager • API Gateway • Lambda • SES • Okta • Aurora (MySQL) • GitHub • GitHub Actions
+
+Created the custom `forgot password or username` service as the LawPRO users have pre-assigned user names. The service also allows users to update their existing recovery questions and answers. I used React for the front end and AWS and .NET Core for the back end.
 
 #### OneSource Data Cleanup (autoTRADER.ca)
 
@@ -292,9 +316,9 @@ SynapzeCX is Bond's flagship microservices platform built with ASP.NET Core and 
 
 #### FordTube Migration (Bond Brand Loyalty)
 
-##### ASP.NET Core Console App • Postman • Fiddler • SqlServer
+##### ASP.NET Core • Postman • Fiddler • SqlServer • RabbitMQ • Redis • Data Structures • Threading
 
-FordTube Migration is a fancy title for a script I created to migrate approximately three thousand videos from deprecated FordTube web application to the SynapzeCX platform for Ford and Lincoln. The script would scrape existing videos and relevant metadata from the old site and upload them to the SynapzeCX Resource module using existing APIs. This project also included small web redirection app, so existing links get translated into the new platform.
+FordTube Migration is an application I created to migrate approximately three thousand videos from deprecated FordTube web application to the SynapzeCX platform for Ford and Lincoln. The script would scrape existing videos and relevant metadata from the old site and upload them to the SynapzeCX Resource module using existing APIs. This project also included small web redirection app, so existing links get translated into the new platform.
 
 ---
 
@@ -324,9 +348,17 @@ Modern Office Add-On is visible part to Titus Data Classification solution. It's
 
 #### OpenBook (Questica)
 
-##### ASP.NET Core • EF Core • ASP.NET Identity • AzureSQL • Aurelia • Gulp • Bower • Moq • NUnit • Jasmine • Swagger • Azure • SASS • VSTS
+##### ASP.NET Core • EF Core • ASP.NET Identity • Azure SQL • Aurelia • Gulp • Bower • Moq • NUnit • Jasmine • Swagger • Azure • SASS • VSTS
 
 Questica OpenBook software can help you build transparency and trust by communicating your data visually. Present financial and non-financial data with descriptive text, informational pop-ups, charts, and graphs. The searching, filtering and sorting tools allow you to find the right information faster and discover information that was once hidden in a spreadsheet. It is a multitenant SPA application hosted on Azure. Backend API is build using CQRS and Repository patterns.
+
+---
+
+#### Divide by Zero Bug Fix (Questica)
+
+##### Azure SQL • Azure • SQLServer • SSMS Query Profiler
+
+Investigated and fixed `divide by zero` bugs in SQLServer stored procedures. The error occurs when `NULL` values are converted to 0 for various calculations in Questica Budget Software. The client complained about the length of budget creation after switching to Azure from local hosting.
 
 ---
 
@@ -348,15 +380,15 @@ Financial Statements is a module for Questica Budget application that offers the
 
 #### Order Direct (The Hunt Group)
 
-##### ASP.NET 4.5 • MVC • jQuery • Materialize • Mandrill • Azure Storage • Azure App Service • AzureSQL • GitHub
+##### ASP.NET 4.5 • MVC • jQuery • Materialize • Mandrill • Azure Blob Storage • Azure App Service • AzureSQL • GitHub
 
-Order Direct is a Web application created to help our clients with easier customer/employee rewarding with gift cards. Each client can manually enter a single recipient, or they can upload Excel, CSV or XML file with a list of recipients, gift card type, and reward value. They have access to financial reporting, production status and returned or undeliverable shipments. The web application was created in ASP.NET MVC 4.5 (hosted on Azure as App Service) and Azure SQL as a backend database. App uses Azure storage for uploaded files. Admin section is used by THG staff for fulfillment, shipping and client administration. Transactional emails are sent with Mandrill API and front-end uses Materialize library.
+Order Direct is a Web application created to help our clients with easier customer/employee rewarding with gift cards. Each client can manually enter a single recipient, or they can upload Excel, CSV or XML file with a list of recipients, gift card type, and reward value. They have access to financial reporting, production status and returned or undeliverable shipments. The web application was created in ASP.NET MVC 4.5 (hosted on Azure as App Service) and Azure SQL as a backend database. App uses Azure Blob Storage for uploaded files. Admin section is used by THG staff for fulfillment, shipping and client administration. Transactional emails are sent with Mandrill API and front-end uses Materialize library.
 
 ---
 
 #### Tim Hortons & Boston Pizza Custom Gift Cards (The Hunt Group & Buy-A-Tab)
 
-##### ASP.NET 4.5 • MVC • FTP • Azure App Service • AzureSQL • Dapper • SQLServer • GitHub
+##### ASP.NET 4.5 • MVC • FTP • Azure App Service • Azure SQL • Dapper • SQLServer • GitHub
 
 Completed this project with ASP.NET MVC 4.5 to accommodate client's need for printing, fulfillment, activation and shipping of custom gift cards. The project was divided into several parts: fetching data and custom images, data manipulation for upload to the database, upload of images to the local database accessible by the printer, cards QA, data upload to client's FTP for activation, fulfillment, shipping and invoicing. Card proxy numbers were pre-loaded in our database. We used Azure App Service for hosting and Azure SQL with Dapper for data. Due to a printer limited networking abilities; we used local SQLServer 2008 for temporary image storage.
 
@@ -364,9 +396,9 @@ Completed this project with ASP.NET MVC 4.5 to accommodate client's need for pri
 
 #### Internal Inventory App (The Hunt Group)
 
-##### MS Access • SQLServer 2000 - 2012 • ASP.NET 2.0, 3.5, 4.0, 4.5 • SQLServer Reporting Services • VBS • Classic ASP • MVC • WebAPI • JS • jQuery • CSS • GitHub
+##### MS Access • SQLServer • ASP.NET 2.0, 3.5, 4.0, 4.5 • SSRS • Classic ASP • MVC • WebAPI • JS • AngularJS • jQuery • Bootstrap • GitHub
 
-Maintained and updated internal Inventory System based on SQLServer 2000 and MS Access. I played a key role in the successful migration of our database from SQLServer 2000 to SQLServer 2008 and later to SQLServer 2012. In the same process, I completely redesigned front-end GUI built in MS Access to a friendlier user experience using ASP.NET WebForms. During the upgrade, I created and optimized over 200 stored procedures and redesigned over 50 reports. Shipping/receiving tasks are 30% more efficient after adding barcode and QR Code enabled products tracking. In 2012, I converted the whole system from client/server type application to a 100% web-based system with no loss in productivity. In 2014, I upgraded backend to ASP.NET API web service and front end to the ASP.NET MVC app.
+Maintained and updated internal Inventory System based on SQLServer 2000 and MS Access. I played a key role in the successful migration of our database from SQLServer 2000 to SQLServer 2008 and later to SQLServer 2012. In the same process, I completely redesigned front-end GUI built in MS Access to a friendlier user experience using ASP.NET WinForms. During the upgrade, I created and optimized over 200 stored procedures and redesigned over 50 reports. Shipping/receiving tasks are 30% more efficient after adding barcode and QR Code enabled products tracking. In 2012, I converted the whole system from client/server type application to a 100% web-based system with no loss in productivity. I upgraded back-end to ASP.NET API web service and front end to the AngularJS app.
 
 ---
 
@@ -374,7 +406,7 @@ Maintained and updated internal Inventory System based on SQLServer 2000 and MS 
 
 ##### RedHat • PHP 5.X • MySQL • Apache • Bootstrap • jQuery • Mandrill • GitHub
 
-Dell Advantage members get 5% back on a Dell ePromotional Card for all Dell.ca purchases over $100. This application was created with PHP and MySQL. We used Mandrill for transactional emails. Existing data was provided by several Dell departments and was combined into one single source.
+I created the exact clone of the wab application hosted on e-bay. Dell Advantage members get 5% back on a Dell ePromotional Card for all Dell.ca purchases over $100. This application was created with PHP and MySQL. We used Mandrill for transactional emails. Existing data was provided by several Dell departments and was combined into one single source.
 
 ---
 
@@ -398,7 +430,7 @@ For many years, Calgarians could get a $50 rebate from the City of Calgary for p
 
 ##### Magento • PHP • MySQL • CSS
 
-StoreFrontDirect is the end-to-end eCommerce solution that has all the online sales prerequisites in one unified platform. It starts with a robust StoreFront designed for branding, usability and adaptability to the pace of your business. Hosted back-office services from logistics to payments processing to settlement – and advanced “first of its kind” analytics – are embedded to unlock the full potential of your business. Everything is easy to initiate and designed to scale with your company.
+StoreFrontDirect is the end-to-end eCommerce solution that has all the online sales prerequisites in one unified platform. It starts with a robust StoreFront designed for branding, usability and adaptability to the pace of your business. Hosted back-office services from logistics to payments processing to settlement - and advanced `first of its kind analytics` - are embedded to unlock the full potential of your business. Everything is easy to initiate and designed to scale with your company.
 
 ---
 
