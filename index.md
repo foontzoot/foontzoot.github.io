@@ -12,9 +12,9 @@
 
 ### Highlights
 
-- Extensive and diverse experience in .NET technologies, SQL Server, Go, Python, PostgreSQL, MySQL, NoSQL, Docker, AWS, and Microsoft Azure.
+- Extensive and diverse experience in .NET technologies, SQL Server, Go, JavaScript, TypeScript, Python, PostgreSQL, MySQL, NoSQL, Docker, AWS, and Microsoft Azure.
 - Experience in Azure Cloud Services (PaaS & IaaS), Functions, Durable Functions, Cognitive Search, Storage, App Service, Active Directory, Application Insights, Logic Apps, Data Factory, Service Bus, Key Vault, Azure DevOps.
-- Hands-on experience in AWS with IAM, EC2, S3, Lambda, SQS, SNS, Aurora, Event Bridge, Secrets Manager, DynamoDB, Code Pipeline, Cloud Watch, Document DB, Memory DB, Step Functions, LightSail, and API Gateway.
+- Hands-on experience in AWS with IAM, EC2, S3, Lambda, SQS, SNS, Aurora, Event Bridge, Secrets Manager, DynamoDB, Code Pipeline, Cloud Watch, Cognito, Document DB, Memory DB, Elasticsearch, Step Functions, OpenSearch, Data Pipeline, Glue, and API Gateway.
 - Designed and developed Cloud Service projects and deployed them to Web Apps, PaaS, and IaaS.
 - Used SQL Server, SQL Azure, Cosmos DB, DynamoDB, PostgreSQL, MongoDB, MySQL, SharePoint, Neo4j, Apache CouchDB, Apache Cassandra, Oracle, SQLite, IBM DB2 and Firebase extensively for database needs in various applications.
 - Hands-on experience in Azure Data Factory, SSIS, and SQL Server Job Agent.
@@ -47,7 +47,7 @@
 - Worked closely with TitlePLUS Client Services to plan and design new features.
 - Participated in software releases and regression testing.
 
->.Net Core, CQRS, MediatR, Fluent Validations, React, Redux, MaterialUI, JavaScript, Go, Python, Lambda, S3, Aurora MySQL, DynamoDB, Okta OAuth2, SQS, SNS, Secrets Manager, Athena, API Gateway, Swagger, xUnit, GitHub.
+>.Net Core, CQRS, MediatR, Fluent Validations, React, Redux, MaterialUI, JavaScript, Go, Python, Lambda, S3, Aurora MySQL, DynamoDB, Okta OAuth2, Cognito, Elasticsearch, OpenSearch, SQS, SNS, Secrets Manager, Athena, API Gateway, Swagger, xUnit, GitHub.
 
 #### Infosys (PwC Global) - Remote | TECH LEAD, CONSULTANT
 
