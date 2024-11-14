@@ -5,9 +5,12 @@
 *.png
 
 # ignore fonts directory
-**/fonts
+# **/fonts
 
 # ignore latex build files
 *.out
 *.log
 *.aux
+*.fls
+*.fdb_latexmk
+*.synctex(busy)
