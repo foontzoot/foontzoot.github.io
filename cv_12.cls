@@ -18,9 +18,11 @@
 \usepackage[usenames,dvipsnames,svgnames]{xcolor} % Required for custom colors
 
 \definecolor{primary}{HTML}{2b2b2b} % The primary document color for content text
-\definecolor{headings}{HTML}{6A6A6A} % The color of the large sections
-\definecolor{subheadings}{HTML}{333333} % The color of subsections and places worked/studied
+\definecolor{headings}{HTML}{2E4053} % The color of the large sections
+\definecolor{subheadings}{HTML}{1A5276} % The color of subsections and places worked/studied
 \definecolor{date}{HTML}{666666} % The color used for the Last Updated text at the top right
+\definecolor{bar_light}{HTML}{FDF2E9} % The light color used for the bar
+\definecolor{bar_dark}{HTML}{F5CBA7} % The dark color used for the bar
 
 %----------------------------------------------------------------------------------------
 %	FONTS
@@ -42,7 +44,7 @@
 \setlength{\TPHorizModule}{0.01\paperwidth} % Sets the units for the horizontal position used in the \begin{textblock} argument
 \setlength{\TPVertModule}{0.01\paperwidth} % Sets the units for the vertical position used in the \begin{textblock} argument
 \newcommand{\lastupdated}{ % Create a new command for printing the Last Updated text
-\begin{textblock}{25}(75,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
+\begin{textblock}{25}(76,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
 \color{date}\fontspec[Path = fonts/Raleway/static/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
 Updated on \today % Last Updated text
 \end{textblock}}
@@ -52,6 +54,7 @@ Updated on \today % Last Updated text
 %----------------------------------------------------------------------------------------
 
 \newcommand{\namesection}[3]{ % Defines the command for the main heading
+    \color{subheadings}
     \centering{ % Center the name
         \fontsize{38pt}{58pt} % Font size
         \fontspec[Path = fonts/Lato/]{Lato-Thin}\selectfont #1 % First name font
@@ -59,10 +62,9 @@ Updated on \today % Last Updated text
     } \\
     \vspace{5pt} % Whitespace between the name and contact information
     \centering{ % Center the contact information
-        \color{headings} % Use the headings color
-        \fontspec[Path = fonts/Raleway/static/]{Raleway-Medium}\fontsize{12pt}{14pt}\selectfont #3
+        \fontspec[Path = fonts/Raleway/static/]{Raleway-Light}\fontsize{12pt}{14pt}\selectfont #3
     } % Contact information font
-    \noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
+    \noindent\makebox[\linewidth]{\color{subheadings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
     \vspace{-8pt} % Reduce whitespace after the rule slightly
 }
 
@@ -128,7 +130,7 @@ Page \thepage\ of \pageref{LastPage}
 
 \newcommand\Mark[2][5]{%
   \rlap{\tikz[baseline=(current bounding box.south)]{
-        \shade[left color=LightGrey, right color=DarkGrey]
+        \shade[left color=bar_light, right color=bar_dark]
                (0,0) rectangle ++(#1*#2/100,0.3);
     }%
   }%
