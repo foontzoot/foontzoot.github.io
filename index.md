@@ -29,7 +29,7 @@
 
 ### Experience
 
-#### LawPRO (Nimbus) - Toronto, ON
+#### LAWPRO (Nimbus) - Toronto, ON
 
 ##### Nov 2021 - Present
 
@@ -49,7 +49,7 @@
 
 >.Net Core, CQRS, MediatR, Fluent Validations, React, Redux, MaterialUI, JavaScript, Go, Python, Lambda, S3, Aurora MySQL, DynamoDB, Okta OAuth2, Cognito, Elasticsearch, OpenSearch, SQS, SNS, Secrets Manager, Athena, API Gateway, Swagger, xUnit, GitHub.
 
-#### Infosys (PwC Global) - Remote | TECH LEAD, CONSULTANT
+#### INFOSYS (PwC Global) - Remote | TECH LEAD, CONSULTANT
 
 ##### Aug 2021 - Nov 2021
 
@@ -134,8 +134,7 @@
 - Ford development team member, building and maintaining Ford Canada's internal sales and service web applications and financial calculators.
 - Helped migrate on-prem SQL Server solutions to Azure and converted SSIS projects into Data Factory.
 - Upgraded time-consuming daily manual data import process from various SQL Server jobs, SSIS packages and custom software solutions to 100% automated solution using Azure Logic Apps, Azure Service Bus, Azure Functions and Azure Storage.
-- Responsible for SynapzeCX FordTube microservices solution built on ASP.NET Core, Identity Server,
-Angular 4+, OpenID Connect, RabbitMQ, Redis, Elasticsearch, Docker, Kubernetes, Vimeo, and SQL Server.
+- Responsible for SynapzeCX FordTube microservices solution built on ASP.NET Core, Identity Server, Angular 4+, OpenID Connect, RabbitMQ, Redis, Elasticsearch, Docker, Kubernetes, Vimeo, and SQL Server.
 - Created migration script to move existing on-prem videos into Vimeo to be consumed by SynapzeCX.
 - Moved code repository from TFS to Azure DevOps and implemented automated builds and deployments.
 - Participated in migrating the existing portfolio project into a DNN-powered solution.
@@ -219,11 +218,12 @@ Angular 4+, OpenID Connect, RabbitMQ, Redis, Elasticsearch, Docker, Kubernetes, 
 
 ---
 
-### Education
+## Education
 
-#### 1990 - 1994 | UNIVERSITY OF BELGRADE - FACULTY OF MATHEMATICS
+### 1990 - 1994 | UNIVERSITY OF BELGRADE - FACULTY OF MATHEMATICS
 
-Bachelor's degree in mathematics
+#### Bachelor's degree in mathematics
+
 Belgrade, Serbia
 
 ---
@@ -272,29 +272,86 @@ Belgrade, Serbia
 
 ---
 
-### Projects
+## Projects
 
-#### User Profile & User Sync (LawPRO/TitlePLUS)
+### Backend Solutions .NET6 to .NET8 Migration (LawPRO/TitlePLUS)
 
-##### .NET Core • AWS • SecretsManager • API Gateway • Lambda • SQS • SNS • SES • Okta • Aurora (MySQL) • GitHub • GitHub Actions
+#### .NET • AWS • Lambda • NuGet • Upgrade Assistant Dotnet Tool • GitHub Copilot
 
-Solved the issue of mismatched user profile information between LawPRO and TitlePLUS by introducing the `user changed event` Okta hook. Okta calls AWS API Gateway that invokes `Lambda -> SQS -> Lambda -> DB update -> SNS` flow. I also designed and created the `User Profile` section in the front-end React app that allows users to update their information.
+<!-- todo -->
 
-#### Custom Forgot Password / Username (LawPRO/TitlePLUS)
+---
 
-##### .NET Core • AWS • SecretsManager • API Gateway • Lambda • SES • Okta • Aurora (MySQL) • GitHub • GitHub Actions
+### Messaging/Advertizing Board (LawPRO/TitlePLUS)
+
+#### .NET • AWS • Aurora RDS (MySQL) • SQL • React • Redux • NPM
+
+<!-- 
+  todo 
+  react-draft-wysiwyg
+-->
+
+---
+
+### Notification Service (LawPRO/TitlePLUS)
+
+#### .NET • AWS • Aurora RDS (MySQL) • SQL • React • Redux
+
+<!-- todo -->
+
+---
+
+### Custom Reporting Service (LawPRO/TitlePLUS)
+
+#### .NET • AWS • Aurora RDS (MySQL) • SQL • StoredProcedures • React • Redux
+
+<!-- todo -->
+
+---
+
+### Backend Solutions .NET Core 3.1 to .NET6 Migration (LawPRO/TitlePLUS)
+
+#### .NET • AWS • Lambda • NuGet • Upgrade Assistant Dotnet Tool
+
+<!-- todo -->
+
+---
+
+### User Profile & User Sync (LawPRO/TitlePLUS)
+
+#### .NET Core • AWS • SecretsManager • API Gateway • Lambda • SQS • SNS • SES • Okta • Aurora (MySQL) • GitHub • GitHub Actions
+
+Solved the issue of mismatched user profile information between LawPRO and TitlePLUS by introducing the `user changed event` Okta webhook. Okta calls AWS API Gateway that invokes `Lambda -> SQS -> Lambda -> DB update -> SNS` flow. I also designed and created the `User Profile` section in the front-end React app that allows users to view and update their information.
+
+---
+
+### Custom Forgot Password / Username (LawPRO/TitlePLUS)
+
+#### .NET Core • AWS • SecretsManager • API Gateway • Lambda • SES • Okta • Aurora (MySQL) • GitHub • GitHub Actions
 
 Created the custom `forgot password or username` service as the LawPRO users have pre-assigned user names. The service also allows users to update their existing recovery questions and answers. I used React for the front end and AWS and .NET Core for the back end.
 
-#### OneSource Data Cleanup (autoTRADER.ca)
+---
 
-##### ASP.NET Core • Azure Durable Function • Azure Function • EF Core • Azure Cognitive Search • Redis • Azure DevOps • Terraform
+### CI/CD Migration from AWS CodePipeline to GitHub Actions (LawPRO/TitlePLUS)
+
+#### .NET Core • AWS • CodePipeline • Lambda • GitHub • GitHub Actions
+
+<!-- todo -->
+
+---
+
+### OneSource Data Cleanup (autoTRADER.ca)
+
+#### ASP.NET Core • Azure Durable Function • Azure Function • EF Core • Azure Cognitive Search • Redis • Azure DevOps • Terraform
 
 AutoTrader had many old and unused orphaned assets, primarily images and videos, stored in Azure Blob Storage, Azure Table Storage, and Cosmos DB. I worked on a Durable Function that found those assets, backed them up to on-prem storage, and purged them from the Azure storage. This Durable Function had one central orchestrator and two sub-orchestrators. After the completion, we backed up and deleted more than 4.5 million orphaned images and videos from the storage. We also cleared several million entries in Azure Search Indexes. Unfortunately, I can't reveal the dollar amount saved.
 
-#### OSG eBilling/eStatement Solution (Indellient)
+---
 
-##### ASP.NET Core • Web API • Razor Pages • PostgreSQL • EF Core • Npgsql • ASP.NET Core Identity • JavaScript • jQuery DataTable • VueJs • Redis • AWS • GitHub • Jenkins • Terraform • nUnit • Jira • Slack
+### OSG eBilling/eStatement Solution (Indellient)
+
+#### ASP.NET Core • Web API • Razor Pages • PostgreSQL • EF Core • Npgsql • ASP.NET Core Identity • JavaScript • jQuery DataTable • VueJs • Redis • AWS • GitHub • Jenkins • Terraform • nUnit • Jira • Slack
 
 OSG's eBilling/eStatement solution is designed to extend beyond paper, providing a data-driven electronic presentment solution that simplifies the delivery process, reduces costs, and improves efficiency. This includes:
 
@@ -306,136 +363,136 @@ OSG's eBilling/eStatement solution is designed to extend beyond paper, providing
 
 ---
 
-#### SynapzeCX - User Asset Upload (Bond Brand Loyalty)
+### SynapzeCX - User Asset Upload (Bond Brand Loyalty)
 
-##### ASP.NET Core • Web API • Angular • TypeScript • RxJS • SQLServer • EF Core • Identity Server • Redis • RabbitMQ • Docker • Azure DevOps • Mocha • Elasticsearch
+#### ASP.NET Core • Web API • Angular • TypeScript • RxJS • SQLServer • EF Core • Identity Server • Redis • RabbitMQ • Docker • Azure DevOps • Mocha • Elasticsearch
 
 SynapzeCX is Bond's flagship microservices platform built with ASP.NET Core and Angular 7. It's a message-based distributed application with many modules. I worked on user asset upload, upload approval and upload publishing, which are parts of the Resource module.  In the process, I created required tables in SQLServer, Web APIs on the server, routes, services, directives and actual pages on the client. I collaborated closely with Design and QA teams using Jira in an agile environment. I created Powershell tool for one-click build and local debug run used by everyone in the group.
 
 ---
 
-#### FordTube Migration (Bond Brand Loyalty)
+### FordTube Migration (Bond Brand Loyalty)
 
-##### ASP.NET Core • Postman • Fiddler • SqlServer • RabbitMQ • Redis • Data Structures • Threading
+#### ASP.NET Core • Postman • Fiddler • SqlServer • RabbitMQ • Redis • Data Structures • Threading
 
 FordTube Migration is an application I created to migrate approximately three thousand videos from deprecated FordTube web application to the SynapzeCX platform for Ford and Lincoln. The script would scrape existing videos and relevant metadata from the old site and upload them to the SynapzeCX Resource module using existing APIs. This project also included small web redirection app, so existing links get translated into the new platform.
 
 ---
 
-#### ConsumerLink Reporting Upgrade (Bond Brand Loyalty)
+### ConsumerLink Reporting Upgrade (Bond Brand Loyalty)
 
-##### ASP.NET MVC • VueJS • WebPages • DevExpress • SQLServer
+#### ASP.NET MVC • VueJS • WebPages • DevExpress • SQLServer
 
 Upgraded existing ASP.NET WebPages based reports when jQuery and DevExpress updates made them unusable. I used ASP.NET MVC 4.6 with Vue on the client and restored reports to their original state. Well, I added a few additional themes.
 
 ---
 
-#### P2P Knowledgebase Test (Bond Brand Loyalty)
+### P2P Knowledgebase Test (Bond Brand Loyalty)
 
-##### ASP.NET MVC • jQuery • Entity Framework 6 • SQLServer
+#### ASP.NET MVC • jQuery • Entity Framework 6 • SQLServer
 
 I updated the current P2P platform by creating a Knowledgebase Test, a trivia type multiple answers test. It has two parts, customer test and admin reporting and test creator side. I used ASP.NET MVC 4.6 and jQuery, added additional Area and, with the help from Design and QA teams, completed the task on time.
 
 ---
 
-#### Modern Office Add-On (Titus Inc.)
+### Modern Office Add-On (Titus Inc.)
 
-##### ASP.NET Core • Kestrel • SignalR • OpenId Connect • NodeJS • TypeScript • Gulp • NUnit • Mocha • Istanbul • NYC • VSTS • SonarQube
+#### ASP.NET Core • Kestrel • SignalR • OpenId Connect • NodeJS • TypeScript • Gulp • NUnit • Mocha • Istanbul • NYC • VSTS • SonarQube
 
 Modern Office Add-On is visible part to Titus Data Classification solution. It's created with TypeScript as Node app, running inside the MS Office or the Office 365. The app accesses back-end connections and ML classification software thru installed Windows service, running Kestrel web app built in ASP.NET Core, with OpenID Connect token authentication and SignalR for communication with Node app. Test coverage was 100% on the back-end and 94% on the front-end.
 
 ---
 
-#### OpenBook (Questica)
+### OpenBook (Questica)
 
-##### ASP.NET Core • EF Core • ASP.NET Identity • Azure SQL • Aurelia • Gulp • Bower • Moq • NUnit • Jasmine • Swagger • Azure • SASS • VSTS
+#### ASP.NET Core • EF Core • ASP.NET Identity • Azure SQL • Aurelia • Gulp • Bower • Moq • NUnit • Jasmine • Swagger • Azure • SASS • VSTS
 
 Questica OpenBook software can help you build transparency and trust by communicating your data visually. Present financial and non-financial data with descriptive text, informational pop-ups, charts, and graphs. The searching, filtering and sorting tools allow you to find the right information faster and discover information that was once hidden in a spreadsheet. It is a multitenant SPA application hosted on Azure. Backend API is build using CQRS and Repository patterns.
 
 ---
 
-#### Divide by Zero Bug Fix (Questica)
+### Divide by Zero Bug Fix (Questica)
 
-##### Azure SQL • Azure • SQLServer • SSMS Query Profiler
+#### Azure SQL • Azure • SQLServer • SSMS Query Profiler
 
 Investigated and fixed `divide by zero` bugs in SQLServer stored procedures. The error occurs when `NULL` values are converted to 0 for various calculations in Questica Budget Software. The client complained about the length of budget creation after switching to Azure from local hosting.
 
 ---
 
-#### Salaries Baselines/Snapshots (Questica)
+### Salaries Baselines/Snapshots (Questica)
 
-##### ASP.NET 4.6.2 • WebPages • WebAPI • jQuery • SQLServer • Reporting Services • SQLServer Data Tools • CSS • TFS
+#### ASP.NET 4.6.2 • WebPages • WebAPI • jQuery • SQLServer • Reporting Services • SQLServer Data Tools • CSS • TFS
 
 Feature request for the Salaries module of the Questica Budget application. Created 30+ de-normalized snapshot tables and more than 40 stored procedures in order to capture salaries data. Updated UI to support adding snapshots. Created several comparison reports and subreports. Deployed reports to development and production environments. Optimized queries and stored procedures.
 
 ---
 
-#### Financial Statements (Questica)
+### Financial Statements (Questica)
 
-##### ASP.NET 4.6.2 • WebPages • WebAPI • jQuery • SQLServer • CSS • TFS
+#### ASP.NET 4.6.2 • WebPages • WebAPI • jQuery • SQLServer • CSS • TFS
 
 Financial Statements is a module for Questica Budget application that offers the ability to configure and generate financial statements, including Income Statements, Balance Sheets, and Cash Flow Statements. All three statements include both a current statement and the ability to project forward using forecast years. With a new set of accounts for assets, liabilities and equities, this new module helps give a complete picture of your current financials and the road ahead. As a team member, I created entities, screens, menu items, reporting entities, reports, security bits, logging and unit tests for Cash Flow Statement.
 
 ---
 
-#### Order Direct (The Hunt Group)
+### Order Direct (The Hunt Group)
 
-##### ASP.NET 4.5 • MVC • jQuery • Materialize • Mandrill • Azure Blob Storage • Azure App Service • AzureSQL • GitHub
+#### ASP.NET 4.5 • MVC • jQuery • Materialize • Mandrill • Azure Blob Storage • Azure App Service • AzureSQL • GitHub
 
 Order Direct is a Web application created to help our clients with easier customer/employee rewarding with gift cards. Each client can manually enter a single recipient, or they can upload Excel, CSV or XML file with a list of recipients, gift card type, and reward value. They have access to financial reporting, production status and returned or undeliverable shipments. The web application was created in ASP.NET MVC 4.5 (hosted on Azure as App Service) and Azure SQL as a backend database. App uses Azure Blob Storage for uploaded files. Admin section is used by THG staff for fulfillment, shipping and client administration. Transactional emails are sent with Mandrill API and front-end uses Materialize library.
 
 ---
 
-#### Tim Hortons & Boston Pizza Custom Gift Cards (The Hunt Group & Buy-A-Tab)
+### Tim Hortons & Boston Pizza Custom Gift Cards (The Hunt Group & Buy-A-Tab)
 
-##### ASP.NET 4.5 • MVC • FTP • Azure App Service • Azure SQL • Dapper • SQLServer • GitHub
+#### ASP.NET 4.5 • MVC • FTP • Azure App Service • Azure SQL • Dapper • SQLServer • GitHub
 
 Completed this project with ASP.NET MVC 4.5 to accommodate client's need for printing, fulfillment, activation and shipping of custom gift cards. The project was divided into several parts: fetching data and custom images, data manipulation for upload to the database, upload of images to the local database accessible by the printer, cards QA, data upload to client's FTP for activation, fulfillment, shipping and invoicing. Card proxy numbers were pre-loaded in our database. We used Azure App Service for hosting and Azure SQL with Dapper for data. Due to a printer limited networking abilities; we used local SQLServer 2008 for temporary image storage.
 
 ---
 
-#### Internal Inventory App (The Hunt Group)
+### Internal Inventory App (The Hunt Group)
 
-##### MS Access • SQLServer • ASP.NET 2.0, 3.5, 4.0, 4.5 • SSRS • Classic ASP • MVC • WebAPI • JS • AngularJS • jQuery • Bootstrap • GitHub
+#### MS Access • SQLServer • ASP.NET 2.0, 3.5, 4.0, 4.5 • SSRS • Classic ASP • MVC • WebAPI • JS • AngularJS • jQuery • Bootstrap • GitHub
 
 Maintained and updated internal Inventory System based on SQLServer 2000 and MS Access. I played a key role in the successful migration of our database from SQLServer 2000 to SQLServer 2008 and later to SQLServer 2012. In the same process, I completely redesigned front-end GUI built in MS Access to a friendlier user experience using ASP.NET WinForms. During the upgrade, I created and optimized over 200 stored procedures and redesigned over 50 reports. Shipping/receiving tasks are 30% more efficient after adding barcode and QR Code enabled products tracking. In 2012, I converted the whole system from client/server type application to a 100% web-based system with no loss in productivity. I upgraded back-end to ASP.NET API web service and front end to the AngularJS app.
 
 ---
 
-#### Dell Advantage (The Hunt Group & Dell Canada)
+### Dell Advantage (The Hunt Group & Dell Canada)
 
-##### RedHat • PHP 5.X • MySQL • Apache • Bootstrap • jQuery • Mandrill • GitHub
+#### RedHat • PHP 5.X • MySQL • Apache • Bootstrap • jQuery • Mandrill • GitHub
 
 I created the exact clone of the wab application hosted on e-bay. Dell Advantage members get 5% back on a Dell ePromotional Card for all Dell.ca purchases over $100. This application was created with PHP and MySQL. We used Mandrill for transactional emails. Existing data was provided by several Dell departments and was combined into one single source.
 
 ---
 
-#### Rogers Promotions (The Hunt Group & Rogers Canada)
+### Rogers Promotions (The Hunt Group & Rogers Canada)
 
-##### RedHat • JBoss • Java 5, 6, 7 • Spring 3.x, 4.x • Hibernate • PostgreSQL • Bootstrap • jQuery • Mandrill • GitHub
+#### RedHat • JBoss • Java 5, 6, 7 • Spring 3.x, 4.x • Hibernate • PostgreSQL • Bootstrap • jQuery • Mandrill • GitHub
 
 I designed, architected, developed and helped maintain online Rogers Loyalty Reward program management web application. We built it in three sections; end-customer for current status, Rogers Admin for Rogers Marketing Team reporting and data insights and THG Admin for shipping, warehousing and invoicing. It handled the daily upload of about 100K de-normalized CSV records into our on-premise PostgreSQL DB. I created an ETL process for import into staging tables and transform data into appropriate tables. The program would email Rogers IT detailed explanation when it encountered inaccurate data. Designed and developed a various social network and email integration packages using provided APIs from Twitter, Facebook, Google and Mandrill.
 
 ---
 
-#### City of Calgary Rebate (The Hunt Group & City of Calgary)
+### City of Calgary Rebate (The Hunt Group & City of Calgary)
 
-##### RedHat • JBoss • Java • Spring • Hibernate • PostgreSQL • Custom CSS • jQuery • Mandrill • GitHub
+#### RedHat • JBoss • Java • Spring • Hibernate • PostgreSQL • Custom CSS • jQuery • Mandrill • GitHub
 
 For many years, Calgarians could get a $50 rebate from the City of Calgary for purchasing a WaterSense toilet. Unfortunately, the program is closed as of August 15, 2016. Residents could determine eligibility before applying based on the Postal Code, number of toilets already replaced in their address and the toilet model (SKU). We provided extensive reporting to the City of Calgary rebate program.
 
 ---
 
-#### StoreFrontDirect (The Hunt Group)
+### StoreFrontDirect (The Hunt Group)
 
-##### Magento • PHP • MySQL • CSS
+#### Magento • PHP • MySQL • CSS
 
 StoreFrontDirect is the end-to-end eCommerce solution that has all the online sales prerequisites in one unified platform. It starts with a robust StoreFront designed for branding, usability and adaptability to the pace of your business. Hosted back-office services from logistics to payments processing to settlement - and advanced `first of its kind analytics` - are embedded to unlock the full potential of your business. Everything is easy to initiate and designed to scale with your company.
 
 ---
 
-#### Property Management Social Web App (Side Project)
+### Property Management Social Web App (Side Project)
 
-##### React • Flux • Firebase • Jest • Digital Ocean • SASS • Webpack • react-cli • npm • VSTS
+#### React • Flux • Firebase • Jest • Digital Ocean • SASS • Webpack • react-cli • npm • VSTS
 
 This is a web app where managers/owners can post their properties for rent, upload pictures and create *available for viewing* time slots. Customers can view, fill an online application and set an appointment. Front-end was created with React and Firebase was used for the back-end. The project is currently in beta and is hosted on Digital Ocean.
