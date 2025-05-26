@@ -2,225 +2,149 @@
 
 ## Software Developer
 
-[LinkedIn](https://www.linkedin.com/in/sinisa-petkovic-b704034/) • [Twitter](https://twitter.com/SinisaPetkovic) • [GitHub](https://github.com/foontzoot) • [Stack Overflow](https://stackoverflow.com/users/3758665/sinisa-petkovic) • [Mastodon](https://c.im/@foontzoot)
+[LinkedIn](https://www.linkedin.com/in/sinisa-petkovic-b704034/)
+&nbsp; &nbsp; &nbsp;•&nbsp; &nbsp; &nbsp;
+[GitHub](https://github.com/foontzoot)
+&nbsp; &nbsp; &nbsp;•&nbsp; &nbsp; &nbsp;
+[Stack Overflow](https://stackoverflow.com/users/3758665/sinisa-petkovic)
 
 ---
 
-> My name is Sinisa Petkovic, and I am a software developer with over 20 years of experience in writing and shipping software with various teams in various environments. In recent years, I immersed myself in full-stack web development, back-end services (Azure, AWS, on-prem), front-end SPAs, and cloud computing. I'm always looking into new ways of accomplishing things and technologies.
+> As a seasoned Software Developer/Consultant and Team Leader, I have complimented and led teams through all software development phases for over two decades. My expertise extends from requirement gathering and analysis to design, development, testing, and support. I am well-versed in server operating systems and virtualization, development environments, frontend and backend programming languages, and data architecture. I am proficient in .NET/C#, JavaScript/TypeScript, Go, PHP, Python and Spring. I am skilled in database development using relational, document and graph databases. I am adept at designing and implementing scalable cloud solutions, including Azure and AWS.
 
 ---
 
-### Highlights
+## Highlights
 
-- Extensive and diverse experience in .NET technologies, SQL Server, Go, JavaScript, TypeScript, Python, PostgreSQL, MySQL, NoSQL, Docker, AWS, and Microsoft Azure.
-- Experience in Azure Cloud Services (PaaS & IaaS), Functions, Durable Functions, Cognitive Search, Storage, App Service, Active Directory, Application Insights, Logic Apps, Data Factory, Service Bus, Key Vault, Azure DevOps.
-- Hands-on experience in AWS with IAM, EC2, S3, Lambda, SQS, SNS, Aurora, Event Bridge, Secrets Manager, DynamoDB, Code Pipeline, Cloud Watch, Cognito, Document DB, Memory DB, Elasticsearch, Step Functions, OpenSearch, Data Pipeline, Glue, and API Gateway.
-- Designed and developed Cloud Service projects and deployed them to Web Apps, PaaS, and IaaS.
-- Used SQL Server, SQL Azure, Cosmos DB, DynamoDB, PostgreSQL, MongoDB, MySQL, SharePoint, Neo4j, Apache CouchDB, Apache Cassandra, Oracle, SQLite, IBM DB2 and Firebase extensively for database needs in various applications.
-- Hands-on experience in Azure Data Factory, SSIS, and SQL Server Job Agent.
-- Extensively worked on SQL, T-SQL, stored procedures, functions, triggers, views, joins, schema, and transactions.
-- Extensive and proven experience in .NET Framework, .NET Core, C#, Go, TypeScript, JavaScript, Python, ADO.NET, EF, LINQ, ASP.NET, WCF, MVC, RESTful API, CQRS, React, Angular, jQuery, Java, C++, HTML, CSS.
-- Proficient in using .NET Threading, Delegates, Events, Generics, Collections, Exception Handling, Transactions, Reflection, and Serialization.
-- Good knowledge of SOLID design, OOP, FP, IOC, Data Structures & Design Patterns.
-- I am exploring Web3, Machine Learning/Artificial Intelligence, Crypto/Blockchain, and Internet of Things (IoT) technologies.
-- Eager to learn innovative technologies focusing on delivering reliable business solutions.
+### .NET
+
+I have deep expertise across the full spectrum of .NET technologies, including both **.NET Framework** and **.NET Core**. My *mastery* of core concepts such as Threading, Cashing, Delegates, Events, Generics, Collections, LINQ, Exception Handling, Transactions, Reflection, and Serialization ensures the development of highly scalable, robust, and easily maintainable server-side applications that consistently exceed expectations.
+
+I bring experience across various .NET UI technologies, including modern web experiences with **Blazor**, cross-platform native applications with **MAUI**, and established desktop solutions using **WPF** and **WinForms**. While my primary focus is crafting intuitive and engaging user interfaces, my familiarity with legacy WebForms applications allows for seamless integration and maintenance within diverse .NET ecosystems.
+
+### OTHER BACKEND FRAMEWORKS
+
+I am skilled in utilizing the event-driven architecture of **NodeJS**, the *batteries-included* approach of **Django**, the micro-framework nature of **Flask**, the performance-focused **Gin** and **Fiber**, the developer-friendly experience of **Laravel**, and the concurrency model of **Phoenix**.
+
+### REACT & ANGULAR
+
+I bring proven proficiency in developing modern, responsive, and dynamic user interfaces using **React** and **Angular**. My hands-on experience with these leading frameworks, demonstrated in various projects, ensures a comprehensive understanding of contemporary web development practices and the ability to deliver engaging and effective user experiences.
+
+### OTHER FRONTEND FRAMEWORKS
+
+ I love crafting dynamic and efficient user interfaces. My expertise spans foundational web technologies, including **HTML** and **vanilla JavaScript**, augmented by modern approaches like **htmx** for enhanced interactivity with minimal JavaScript. I am proficient in server-side rendering using **HTML templates** for both **Golang** and **Python** (including the **Django** framework), ensuring robust, maintainable, and performant web applications.
+
+### CLOUD TECHNOLOGIES
+
+Highly experienced in Cloud Technologies, with deep expertise across **Microsoft Azure** and **AWS**. Proven ability to design, develop, and deploy cloud-based solutions on PaaS and IaaS, leveraging a wide range of services, including Azure App Service, Functions, Durable Functions, various storage solutions (Queue, Table, Blob), API Management, App Insights, Logic Apps, Data Factory, DevOps, and AWS services like IAM, EC2, S3, Event Bridge, Lambda, SQS, SNS, API Gateway, Aurora, Secrets Manager, Cloud Watch, and Code Pipeline.
+
+### DATABASES
+
+I have worked extensively with a diverse set of database and data storage systems, including **relational databases** like SQL Server, SQL Azure, PostgreSQL, MySQL, Oracle, and SQLite, **NoSQL databases** such as DynamoDB, Cosmos DB, Document DB, and MongoDB, graph databases like Neo4j, **in-memory data stores** like Redis, and **NoSQL cloud platforms** like Firebase. My skills cover comprehensive data management across these paradigms, including SQL, T-SQL, PL/SQL, Cypher (for Neo4j), data structure management in Redis, Firebase data modeling, schema design (relational and graph models), transactions, data migrations, performance tuning, stored procedures, functions, triggers, and views.
+
+### DATA INTEGRATION & ETL
+
+Adept at leveraging cloud-based and on-premises data integration technologies, including **Azure Data Factory**, **AWS Glue**, and **SQL Server Integration Services (SSIS)**. Furthermore, I have experience developing custom solutions using C#, Python and Go to extend and automate data integration workflows, enabling more granular control and efficient handling of specific business requirements. I have a proven track record of designing and implementing efficient data integration solutions to meet diverse business needs.
+
+### MESSAGING SERVICES
+
+Proficient in utilizing messaging services to enhance backend systems' scalability, reliability, and fault tolerance. I have hands-on experience with **AWS SQS** for building decoupled and distributed applications, **AWS SNS** for efficient notification delivery and building event-driven architectures, **Azure Service Bus** for advanced messaging patterns, **Azure Queue Storage** for cost-effective queuing, traditional solutions like **MSMQ**, and the versatile **RabbitMQ** for complex routing and message handling.
+
+### DISTRIBUTED STREAMING SERVICES
+
+Adept at designing and implementing highly scalable and real-time backend solutions by strategically using pub/sub messaging patterns. My experience includes leveraging **Apache Kafka** for high-throughput, fault-tolerant data streaming and event processing.
+
+### PROGRAMMING LANGUAGES
+
+Throughout my extensive career as a software engineer, I have cultivated deep expertise in various programming languages. I am fully proficient in **C#**, **Go**, **JavaScxript**, **TypeScript**, **Python**, **C/C++**, **Java Spring**, **PHP**, and **Scala**, allowing me to contribute effectively to diverse projects and teams. My passion for continuous learning extends to exploring and experimenting with languages like **Rust**, **Elixir**, **Ruby**, and **OCaml**, fostering adaptability and a broad understanding of software development paradigms.
 
 ---
 
-### Experience
+## Experience
 
-#### LAWPRO (Nimbus) - Toronto, ON
+### LAWPRO | Toronto, ON | *Nov 2021 - Present*
 
-##### Nov 2021 - Present
+#### Remote | SENIOR SOFTWARE ENGINEER, CONSULTANT <!-- avoiding warning lawpro -->
 
-##### Remote | SENIOR SOFTWARE ENGINEER, CONSULTANT
+As a Software Engineer within the Nimbus Consulting Team, I have been instrumental in building and maintaining LawPRO's TitlePLUS Insurance Service. My full-stack capabilities encompass backend development using .NET Core, C#, Go, serverless technologies like Lambda and API Gateway, and frontend development with React, Redux, and MaterialUI. I have a proven track record of modernizing technology stacks, including migrations of .NET, Node.js, and CI/CD pipelines. My contributions have directly resulted in improved data synchronization, enhanced database performance, and the delivery of practical solutions for user management and data reporting.
 
-- Member of Nimbus Consulting Team, building and maintaining LawPRO's TitlePLUS Insurance Service.
-- Back-end development in .NET Core, C#, Go, Lambda, API Gateway, RDS Aurora (MySQL), Okta OAuth2.
-- Front-end development in React with Redux, React Hooks, and MaterialUI.
-- Migrated .NET Core 3.1 to .NET 6, Node v13 to Node v18, and Code Pipeline to GitHub Actions.
-- Created and refactored RESTful APIs using CQRS pattern, MediatR and FluentValidations.
-- Delivered effective User Profile solution, solving the data sync issues between Okta and LawPRO services.
-- Altered and created numerous MySQL stored procedures, improved speed and accuracy.
-- Introduced data aggregation solution for local and cloud-based PowerBI reporting solutions.
-- Provided demos, guidance, mentoring and ad-hoc reports to TitlePLUS Marketing and Client Services teams.
-- Worked closely with TitlePLUS Client Services to plan and design new features.
-- Participated in software releases and regression testing.
+My experience includes designing and refactoring RESTful APIs following the CQRS pattern with MediatR and FluentValidation. Notably, I delivered an effective User Profile solution that resolved significant data synchronization issues between Okta and LawPRO services. I have also enhanced database performance and accuracy by modifying and creating numerous MySQL stored procedures. I collaborated closely with the TitlePLUS Client Services team to plan and design new features, ensuring user needs are effectively translated into functional and engaging interfaces.
 
->.Net Core, CQRS, MediatR, Fluent Validations, React, Redux, MaterialUI, JavaScript, Go, Python, Lambda, S3, Aurora MySQL, DynamoDB, Okta OAuth2, Cognito, Elasticsearch, OpenSearch, SQS, SNS, Secrets Manager, Athena, API Gateway, Swagger, xUnit, GitHub.
+### INFOSYS (PwC Global) | Atlanta, GA | *Aug 2021 - Nov 2021*
 
-#### INFOSYS (PwC Global) - Remote | TECH LEAD, CONSULTANT
+#### Remote | TECH LEAD, CONSULTANT <!-- avoiding warning PwC -->
 
-##### Aug 2021 - Nov 2021
+As a member of the Infosys Consulting Team for PwC Global Compliance Service, I played a role in team growth and code quality. I provided guidance, mentoring, and thorough one-on-one pull request reviews to junior team members, fostering their development and ensuring adherence to best practices. My technical contributions spanned frontend development with Angular 10+, PrimeNG, and NgRx, as well as backend API development and data access using .NET and Dapper, working closely with the Software Architects Team on planning and design. Notably, I championed the introduction of unit testing within the SQL Server Database Solution to improve data integrity and reliability.
 
-- Infosys Consulting Team member, helped build and maintain PwC Global Compliance Service.
-- Front-end development in Angular 10+ with PrimeNG and NgRx.
-- Refactored Angular services API calls to return data to models, avoiding "any" type.
-- Created and refactored RESTful APIs following SOLID and DRY principles.
-- Altered and created numerous stored procedures to work seamlessly with Dapper.
-- Introduced unit testing in SQL Server Database Solution.
-- Provided guidance, mentoring and one-on-one pull request reviews to junior team members.
-- Worked close with Software Architects Team in the planning and design of new
+### FREEDOM MOBILE | Toronto, ON | *Apr 2021 - Aug 2021*
 
->.Net Core, Angular 10, NgRx, PrimeNG, API, TypeScript, Azure SQL, Azure Cosmos DB, Azure Blobs, Azure Table Storage, Azure Key Vault, Dapper, Swagger, xUnit.
+#### Remote | SENIOR SOFTWARE ENGINEER, CONSULTANT <!-- avoiding warning freedom -->
 
-#### FREEDOM MOBILE - Remote | SENIOR SOFTWARE ENGINEER, CONSULTANT
+Contributing to the development and maintenance of Freedom Mobile services, I have significant experience in API design and infrastructure automation. This involved converting numerous API calls to a serverless architecture leveraging AWS API Gateway, Lambda, PostgreSQL, and DynamoDB. I also led the refactoring of a monolithic backend solution towards a microservices-ready architecture, adhering to SOLID and DRY principles. Furthermore, I enhanced code reusability by creating NuGet packages and managing them via AWS CodeArtifact, and streamlined database infrastructure by recreating an AWS Aurora PostgreSQL database using a Entity Framework Core code-first approach based on an existing SQL Server database. My experience extends to modernizing communication protocols by migrating a WCF SOAP service to gRPC and establishing efficient CI/CD pipelines with Jenkins and Terraform.
 
-##### Apr 2021 - Aug 2021
+### autoTRADER.ca | Vancouver, BC | *Sep 2020 - Apr 2021*
 
-- Member of Freedom Mobile Team, building and maintaining Freedom Mobile services.
-- Converted numerous API calls to AWS API Gateway with Lambdas, PostgreSQL and DynamoDB.
-- Refactored monolithic back-end solution into microservices-ready solution following SOLID and DRY principles.
-- Created NuGet packages from extracted libraries and made them available on AWS CodeArtifact.
-- Recreated AWS Aurora PostgreSQL database based on existing on-prem SQL Server database using the code-first method.
-- Migrated WCF service (SOAP) to gRPC.
-- Created several CI/CD pipelines with Jenkins and Terraform.
+#### Remote | SENIOR SOFTWARE ENGINEER, CONSULTANT <!-- avoiding warning autoTRADER -->
 
->ASP. Net Core, AWS Lambda, AWS CodeArtifact, AWS Secrets Manager, AWS Gateway, RESTful API, EF Core, PostgreSQL, DynamoDB, SQL Server, Jenkins, Terraform, gRPC, SOAP, xUnit.
+As a Software Engineer within the One-Source team at AutoTrader, I was instrumental in building and maintaining critical One-Source solutions. A key achievement involved the successful creation and deployment of an Azure Durable Function with a central orchestrator and two sub-orchestrators, which automated the backup and clearing of over 4.5 million old entries from various data stores including Cosmos DB, SQL Server, Table Storage, Blob Storage, and Cognitive Search Indexes. This automation, coupled with efficient data handling via Azure Data Factory, not only improved system efficiency but also resulted in significant savings in Azure resource utilization. My responsibilities further included working on various data transformation projects, effectively tackling technical debt, performing essential refactoring and version upgrades, enhancing our software delivery pipelines with Azure DevOps, and improving the performance and stability of the dealer-facing React application.
 
-#### autoTRADER.ca - Remote | SENIOR SOFTWARE ENGINEER, CONSULTANT
+### TUNDRA TECHNICAL SOLUTIONS CLIENT | Cambridge, ON | *Mar 2020 - Sep 2020*
 
-##### Sep 2020 - Apr 2021
+#### Cambridge, ON | FULLSTACK SOFTWARE DEVELOPER, CONSULTANT
 
-- One-Source team member, helped build and maintain AutoTrader's One-Source solutions.
-- Successfully created, tested, and released Azure Durable Function with one central orchestrator and two sub-orchestrators to back up and clear old (sold or removed) ads from Cosmos DB, SQL Server, Table Storage, Blob Storage and Search Indexes - cleared more than 4.5 million old entries.
-- Worked on numerous data transformation projects utilizing Functions, Durable Functions, Azure Service Bus, Data Factory, Logic Apps, Azure Storage, Cosmos DB, and SQL Server.
-- Excelled at clearing the tech debt, refactoring, and version upgrades.
-- Created/upgraded several CI/CD pipelines on Azure DevOps with YAML and Terraform.
-- Updated numerous legacy packages and pushed them to the NuGet internal feed.
-- Participated in software releases and regression testing.
-- Fixed several bugs in the front-end React application.
+As part of the ICS development team, I focused on modernizing and improving the efficiency of existing systems. This included working across the technology stack with ASP.NET APIs, Angular frontends, Win Forms/WPF applications, and Oracle PL/SQL queries. I enhanced the resilience of backend communication by adding availability checks for frequently restarted MSMQ services. I also spearheaded the migration of our codebase and its history from SVN to Git on Azure DevOps and established robust CI/CD pipelines using CMake, PowerShell, WiX, Python, and YAML. A key contribution was the conversion of legacy DLL files into manageable NuGet packages, hosted on an internal Azure Pipelines feed, which helped unclutter Visual Studio solutions and improve build processes. Additionally, I improved team collaboration by transitioning documentation from MS Word & Visio to accessible Azure DevOps Wikis.
 
->ASP.Net Core, Azure Durable Functions & Functions, Azure Service Bus, Azure Logic Apps, Azure Cognitive Search, Azure Blob & Table Storage, Azure DevOps, ADO.Net, React, NodeJS, NPM, SQL Server, Azure SQL, protobuf.
+### INDELLIENT | Oakville, ON | *Sep 2019 - Mar 2020*
 
-#### TOYOTA MOTOR MANUFACTURING CANADA (TUNDRA) - Cambridge, ON | SENIOR SOFTWARE DEVELOPER, CONSULTANT
+#### Oakville, ON | SENIOR SOFTWARE ENGINEER, CONSULTANT
 
-##### Mar 2020 - Sep 2020
+As a Principal Developer within the OSG development team, I was central to building and maintaining OSG's integrated solutions, with a primary focus on the cloud-based (AWS) distributed web application for OSG eBilling/eStatement, utilizing .Net Core, EF Core, Razor Pages, and PostgreSQL. My responsibilities included creating serverless functions with AWS Lambda and Java Spring, deploying tools and Web Apps to Amazon EC2, and extensively leveraging jQuery Data Tables for robust data presentation and manipulation. I also played a key role in ensuring system stability by troubleshooting occasional issues across OSG-maintained solutions on AWS, initiating unit and integration testing, enhancing logging services with Serilog, and establishing CI/CD pipelines using Terraform, Jenkins, GitHub, and AWS. Furthermore, I contributed to data processing efficiency by upgrading and optimizing multiple Python ETL packages and modernized the application framework by migrating .NET Core and EF Core from version 2.2 to 3.1.
 
-- ICS development team member, created, maintained, and troubleshot ASP.NET WEB API, Angular SPA, Win Forms / WPF, and Oracle PL/SQL queries.
-- Replaced error-prone MSMQ services with Azure Logic Apps and Azure Service Bus.
-- Exported frequently used data into Azure Table Storage integrated with PowerBI reports.
-- Setup log error searching using Azure Search.
-- Migrated codebase with changelog history from SVN to Git on Azure DevOps.
-- Created multiple CI/CD pipelines on Azure DevOps with PowerShell, Python, YAML and WiX.
-- Converted legacy DLL files into NuGet packages and created internal feed on Azure Pipelines.
-- Uncluttered Visual Studio solutions by building libraries into NuGet packages.
-- Designed and created Oracle 10G to PostgreSQL migration program with Python.
-- Updated MS Word & Visio documents into Wikis on Azure DevOps.
+### BOND BRAND LOYALTY | Mississauga, ON | *Nov 2018 - Sep 2019*
 
->ASP.Net, MSMQ, Angular, NodeJS, NPM, JavaScript, TypeScript, WinForms, Oracle, NuGet, WiX, Azure Search, Azure Logic Apps, Azure Blob Storage, Azure Service Bus, Azure Table Storage, Azure DevOps, CI/CD, PostgreSQL, Jenkins.
+#### Mississauga, ON | FULLSTACK SOFTWARE DEVELOPER
 
-#### INDELLIENT - Oakville, ON | FULL STACK DEVELOPER, CONSULTANT
+Contributing to the Ford development team, I was involved in building and maintaining critical internal sales and service web applications and financial calculators for Ford Canada. My responsibilities spanned both backend and frontend technologies, including the development of the SynapzeCX FordTube microservices solution using ASP.NET Core, Identity Server, Angular 4+, and related technologies like RabbitMQ, Redis, Docker, Kubernetes, and Elasticsearch. I also spearheaded modernization efforts by migrating on-prem SQL Server solutions to Azure, transforming SSIS projects into Azure Data Factory, and automating a complex daily data import process using Azure Service Bus, Azure Functions, and Azure Storage. Additionally, I improved the development lifecycle by moving the code repository to Azure DevOps and implementing automated builds and deployments, and contributed to platform modernization by upgrading legacy WebForms sites to Vue, replacing jQuery and outdated DevExpress modules.
 
-##### Sep 2019 - Mar 2020
+### TITUS INC. - Ottawa, ON | *Aug 2018 - Nov 2018*
 
-- Member of OSG development team, building and maintaining OSG's integrated solutions.
-- Principal developer in OSG eBilling/eStatement, .Net Core, Razor Pages and PostgreSQL cloud-based (AWS) distributed web application.
-- Created serverless functions with AWS Lambda and Python.
-- Deployed the tools and Web Apps to Amazon EC2.
-- Extensively used jQuery Data Tables for data presentation and manipulation.
-- Helped troubleshoot occasional issues in OSG-maintained solutions on AWS.
-- Initiated unit and integration testing and improved logging services using Serilog.
-- CI/CD with Terraform, Jenkins, GitHub, and AWS.
-- Upgraded and optimized multiple Python ETL packages.
-- Migrated .NET Core and EF Core from version 2.2 to 3.1.
+#### Hybrid | SOFTWARE DEVELOPER
 
->ASP.Net Core, Entity Framework Core, PostgreSQL, DDD, React, jQuery, Vue, Python, Bootstrap, Jenkins, Terraform, AWS Lambda, Amazon EC2, Amazon Cloud Search, Ubuntu, JetBrains Raider, PyCharm, Data Grip.
+As a member of the agile Office Add-On development team, I played a key role in building cutting-edge ML-powered security solutions for MS Office. My technical contributions focused on an upgraded Office Add-on solution developed using ASP.NET Core, Node.js, TypeScript, React, OpenID Connect, SignalR, and Kestrel. I also engineered a C++ wrapper for GNU Linux to facilitate integration with a ASP.NET Core application. Recognizing the importance of code quality, I introduced frontend testing frameworks like Mocha, Istanbul, and NYC and contributed to the creation of a private NPM repository. My active participation in weekly code quality meetings, involving the presentation and discussion of SonarQube reports, underscored my commitment to delivering high-quality software within a collaborative agile setting.
 
-#### BOND BRAND LOYALTY - Mississauga, ON | SENIOR SOFTWARE DEVELOPER
+### QUESTICA - Burlington, ON | *Oct 2016 - Aug 2018*
 
-##### Nov 2018 - Sep 2019
+#### Burlington, ON | FULLSTACK SOFTWARE DEVELOPER
 
-- Ford development team member, building and maintaining Ford Canada's internal sales and service web applications and financial calculators.
-- Helped migrate on-prem SQL Server solutions to Azure and converted SSIS projects into Data Factory.
-- Upgraded time-consuming daily manual data import process from various SQL Server jobs, SSIS packages and custom software solutions to 100% automated solution using Azure Logic Apps, Azure Service Bus, Azure Functions and Azure Storage.
-- Responsible for SynapzeCX FordTube microservices solution built on ASP.NET Core, Identity Server, Angular 4+, OpenID Connect, RabbitMQ, Redis, Elasticsearch, Docker, Kubernetes, Vimeo, and SQL Server.
-- Created migration script to move existing on-prem videos into Vimeo to be consumed by SynapzeCX.
-- Moved code repository from TFS to Azure DevOps and implemented automated builds and deployments.
-- Participated in migrating the existing portfolio project into a DNN-powered solution.
-- Upgraded server-side DevExpress and jQuery sites to Vue.
+As a Fullstack Software Developer within the Questica development team, I contributed to the development of a next-generation multitenant budgeting and financial platform, including the architecture and development of the OpenBook Azure cloud data visualization product using ASP.NET Core, EF Core, Azure AD, Azure SQL, and Aurelia. My expertise includes working with complex SQL, Transactions, Stored Procedures, Triggers, and packages across large databases using SSMS and SQL Server Profiler. I was actively involved in the migration of Questica Budget from on-prem to Azure IaaS, where I developed data import/export and transformation services using Azure Data Factory. I also improved application performance using Azure Search and SQL optimization techniques, implemented Application Insights for enhanced monitoring, and modernized the development process by migrating TFS to Git-based VSTS with continuous integration.
 
->ASP.Net MVC, Entity Framework, ASP. Net Core, Python, Identity Server, PowerShell, Angular, React, Vue, jQuery, Bootstrap, DevExpress, SQL Server, SSIS, SSRS, Redis, RabbitMQ, Elasticsearch, DotNetNuke.
+### THE HUNT GROUP / THE GIFT CARD GROUP / THE REBATE COMPANY | Mississauga, ON | *Mar 2007 - Oct 2016*
 
-#### TITUS INC. - Ottawa, ON | SOFTWARE DEVELOPER
+#### Mississauga, ON | PRINCIPAL SOFTWARE DEVELOPER
 
-##### Aug 2018 - Nov 2018
+A Principal Software Developer with a proven track record in consulting, I have guided clients through software architecture, design, and development strategies. My experience includes full-stack web development on Azure, emphasizing mobile-first responsive design principles. I have developed a range of applications, including web solutions on Azure App Service, desktop applications using WinForms and WPF, and specialized tools and calculators. I also possess experience in developing and maintaining on-prem web applications utilizing PHP and MySQL. My technical skills encompass database design (both SQL Server and MySQL), performance optimization, complex reporting, and data migrations. I am a strong advocate for code quality and have initiated unit, integration, and security testing within development lifecycles. A key achievement involved architecting and executing the modernization of a legacy custom-built Inventory system, leading its migration from MS Access to a robust WPF application with SQL Server and ultimately to a scalable Razor Pages Web App, resulting in improved modularity, performance, and security.
 
-- Member of Office Add-On development team, a highly collaborative agile team, building ML-powered security solutions for MS Office.
-- Responsible for upgraded Office Addon solution built on ASP.NET Core, NodeJS/TypeScript, React, OpenID Connect, SignalR and Kestrel.
-- Created C++ wrapper for existing ASP.NET Core application running in Linux.
-- Introduced front-end tests with Mocha, Istanbul, and NYC and helped create a private NPM repository.
-- Participated in weekly code quality meetings, displaying and explaining current SonarQube reports.
+### [CRYPTOLOGIC](https://en.wikipedia.org/wiki/CryptoLogic) | Toronto, ON | *Jan 2006 - Mar 2007*
 
->ASP.Net Core, SignalR, NodeJS, Typescript, NPM, React, SQL Server, Identity Server, Mocca, Chai, Istanbul/NYC, xUnit, MS Office Add-On.
+#### C++/MFC CLIENT SIDE SOFTWARE DEVELOPER
 
-#### QUESTICA - Burlington, ON | SOFTWARE DEVELOPER
+As a Software Developer on the client-side poker development team, I focused on enhancing the user experience by implementing new features according to provided specifications. I also played a crucial role in maintaining the stability and security of the application by identifying and resolving a major bug within the existing 2D engine code related to incorrectly implemented GDI functions. Furthermore, I proactively re-implemented several areas of the codebase to eliminate potential string format overruns, mitigating potential security vulnerabilities. Throughout the development process, I collaborated closely with the QA Team to ensure the delivery of a high-quality and bug-free product.
 
-##### Oct 2016 - Aug 2018
+### SELEP | Toronto, ON | C++ DEVELOPER | *Jun 2005 - Jan 2006*
 
-- Questica development team member, building next-generation Azure-based budgeting and financial platform.
-- Helped architect, design, develop and ship OpenBook, Azure cloud data visualization multitenant product in ASP.NET Core, EF Core, Azure AD, Azure SQL, and Aurelia.
-- Improved application performance using Azure Search and SQL query optimization.
-- Implemented Azure Application Insights to store user activities and error logging.
-- Maintained, upgraded, and refactored legacy budgeting application built with Web Forms and SQL Server.
-- Transferred TFS repositories to Git-based VSTS and introduced continuous integration.
-- Participated in migration of Questica Budget from on-prem to Azure IaaS, worked on data import/export and transformation services using Azure Storage, Azure Logic Apps and Azure Functions.
-- Scheduled data pumping using Azure Web Jobs and SQL Server Job Agent.
-- Worked with complex SQL, Stored Procedures, Triggers, and packages in large databases from various servers.
-- Created and maintained various customized software and data integration services and applications.
+### PLAVOSLOVO | Belgrade, Serbia | CO-FOUNDER | *May 2001 - May 2005*
 
->ASP.Net, ASP.Net Core, EF Core, CQRS, Docker, Multitenancy, Azure AD, Azure Logic Apps, Azure Search, Aurelia, Azure Web Jobs, TypeScript, SQL Server, SSRS, SSIS, TFS, Azure SQL, Azure Storage, Azure Functions, Azure Application Insights, SQL Server Profiler.
+### SOFT-TRAIN INSTITUTE | Toronto, ON | PROGRAMMING INSTRUCTOR | *May 1999 - May 2001*
 
-#### THE HUNT GROUP / THE GIFT CARD GROUP - Mississauga, ON | LEAD SOFTWARE DEVELOPER
+### SAVILLE SYSTEMS | Edmonton, AB | C++/JAVA DEVELOPER, CONSULTANT | *May 1998 - May 1999*
 
-##### Mar 2007 - Oct 2016
-
-- Consulted with various clients on their software architecture, design and development needs.
-- Contributed to company-wide resource planning, hiring, performance reviews, and client-facing business development.
-- Responsible for cloud-based (Azure) full-stack web development with a mobile-first responsive design.
-- Developed numerous web applications on Azure App Service, windows applications, helper tools, database schemas, stored procedures, finance, and lease calculators.
-- Performed database performance tuning, complex reporting, and migrations.
-- Initiated unit testing, integration testing and security testing.
-- Introduced architectural change into a legacy application: a custom-built Inventory system.
-- Improved code modularity, identified and fixed performance bottlenecks, and addressed security concerns.
-
->ASP.Net, AngularJS, SQL Server, Azure SQL, Azure Logic Apps, Azure Functions, Azure Storage, Azure Service Bus, Azure App Service, Azure Application Insights, Java, Python, PHP, MySQL, Win Forms, jQuery, Bootstrap, SSIS, SSRS.
-
-#### [CRYPTOLOGIC](https://en.wikipedia.org/wiki/CryptoLogic) - Toronto, ON | C++/MFC CLIENT SIDE SOFTWARE DEVELOPER
-
-##### Jan 2006 - Mar 2007
-
-- Member of the client-side poker development team
-- Improved user's experience by adding additional functionality to existing program according to provided specifications.
-- Fixed a major bug in existing 2D engine code, in incorrectly implemented GDI functions.
-- Re-implemented several potential string format overruns that might have been exploited.
-- Worked closely with QA Team in ironing out issues and bugs.
-
-#### SELEP - Toronto, ON | C++ DEVELOPER
-
-##### Jun 2005 - Jan 2006
-
-#### PLAVOSLOVO - Belgrade, Serbia | CO-FOUNDER / C++ DEVELOPER
-
-##### May 2001 - May 2005
-
-#### SOFT-TRAIN INSTITUTE - Toronto, ON | PROGRAMMING INSTRUCTOR
-
-##### May 1999 - May 2001
-
-#### SAVILLE SYSTEMS - Edmonton, AB | C++ SOFTWARE DEVELOPER, CONSULTANT
-
-##### May 1998 - May 1999
-
-#### KM HITECH - Vancouver, BC | C++/JAVA/SMALLTALK DEVELOPER
-
-##### Jul 1995 - Apr 1998
+### KM HITECH | Vancouver, BC | C++/JAVA DEVELOPER | *Jul 1995 - Apr 1998*
 
 ---
 
 ## Education
 
-### 1990 - 1994 | UNIVERSITY OF BELGRADE - FACULTY OF MATHEMATICS
+### 1990 - 1994 | UNIVERSITY OF BELGRADE | FACULTY OF MATHEMATICS
 
 #### Bachelor's degree in mathematics
 
@@ -228,45 +152,45 @@ Belgrade, Serbia
 
 ---
 
-### Skills
+## Skills
 
-#### PROGRAMMING
+### PROGRAMMING
 
 >C# • JS/TS • GO • C/C++ • Python • Java • Git • Rust • SQL • OOP • SOLID • Design Patterns • Data Structures • Bash • Powershell
 
-#### FRONT-END
+### FRONT-END
 
 >React • Angular • Flutter • Redux • NgRx • WPF • HTML/CSS • HTMX • MUI • PrimeNG • MAUI • AvaloniaUI • RazorPages • WebForms • SVG • Markdown • LaTeX • AsposePDF • Adobe
 
-#### BACK-END
+### BACK-END
 
 >.NETCore • ASP.NET • RESTful API • MVC • Docker • Node/Express • WCF/SOAP • gRPC • Django • Swagger • OAuth • Spring • WebAssembly
 
-#### .NET
+### .NET
 
 >Threading • Delegates • Events • Generics • Collections • Exceptions • Transactions • Reflection • Serialization • Entity Framework • Dapper • LINQ • CQRS • MSMQ • IoC/DI • MediatR • WinForms • WebForms • Fluent Validations • SignalR • Identity • xUnit • nUnit
 
-#### DATABASES
+### DATABASES
 
 >SQLServer • Azure SQL • MySQL • Oracle • PostgreSQL • CosmosDB • DynamoDB • SQLite • SharePoint • MongoDB • Firebase • Redis • RavenDB • neo4j • CouchDB
 
-#### CLOUD/VIRTUALIZATION
+### CLOUD/VIRTUALIZATION
 
 >Azure • AWS • GCP • Firebase • Docker/K8s • DigitalOcean • Linode • VMware
 
-#### MS AZURE
+### MS AZURE
 
 >Functions • DurableFunctions • ServiceBus • KeyVault • Table Storage • Blob Storage • Queue Storage • AD • Application Insights • Cognitive Search • DevOps • Api Management • AppService • DataFactory
 
-#### AWS
+### AWS
 
 >IAM • EC2 • S3 • Lambda • SQS • SNS • Aurora • EventBridge • SecretsManager • CodePipeline • CloudWatch • StepFunctions • API Gateway
 
-#### DevOps
+### DevOps
 
 >GitHub Actions • AWS CodePipeline • Azure Pipelines • Artifacts • NuGet • NPM • Ansible • Terraform • Jenkins • WiX • Cake
 
-#### INTERESTS
+### INTERESTS
 
 >GraphQL • Rust • Elixir • Erlang • Zig • Clojure • OCaml • Kotlin • WebAssembly
 
