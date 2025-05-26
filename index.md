@@ -152,50 +152,6 @@ Belgrade, Serbia
 
 ---
 
-## Skills
-
-### PROGRAMMING
-
->C# • JS/TS • GO • C/C++ • Python • Java • Git • Rust • SQL • OOP • SOLID • Design Patterns • Data Structures • Bash • Powershell
-
-### FRONT-END
-
->React • Angular • Flutter • Redux • NgRx • WPF • HTML/CSS • HTMX • MUI • PrimeNG • MAUI • AvaloniaUI • RazorPages • WebForms • SVG • Markdown • LaTeX • AsposePDF • Adobe
-
-### BACK-END
-
->.NETCore • ASP.NET • RESTful API • MVC • Docker • Node/Express • WCF/SOAP • gRPC • Django • Swagger • OAuth • Spring • WebAssembly
-
-### .NET
-
->Threading • Delegates • Events • Generics • Collections • Exceptions • Transactions • Reflection • Serialization • Entity Framework • Dapper • LINQ • CQRS • MSMQ • IoC/DI • MediatR • WinForms • WebForms • Fluent Validations • SignalR • Identity • xUnit • nUnit
-
-### DATABASES
-
->SQLServer • Azure SQL • MySQL • Oracle • PostgreSQL • CosmosDB • DynamoDB • SQLite • SharePoint • MongoDB • Firebase • Redis • RavenDB • neo4j • CouchDB
-
-### CLOUD/VIRTUALIZATION
-
->Azure • AWS • GCP • Firebase • Docker/K8s • DigitalOcean • Linode • VMware
-
-### MS AZURE
-
->Functions • DurableFunctions • ServiceBus • KeyVault • Table Storage • Blob Storage • Queue Storage • AD • Application Insights • Cognitive Search • DevOps • Api Management • AppService • DataFactory
-
-### AWS
-
->IAM • EC2 • S3 • Lambda • SQS • SNS • Aurora • EventBridge • SecretsManager • CodePipeline • CloudWatch • StepFunctions • API Gateway
-
-### DevOps
-
->GitHub Actions • AWS CodePipeline • Azure Pipelines • Artifacts • NuGet • NPM • Ansible • Terraform • Jenkins • WiX • Cake
-
-### INTERESTS
-
->GraphQL • Rust • Elixir • Erlang • Zig • Clojure • OCaml • Kotlin • WebAssembly
-
----
-
 ## Projects
 
 ### Backend Solutions .NET6 to .NET8 Migration (LawPRO/TitlePLUS)
@@ -206,7 +162,7 @@ Belgrade, Serbia
 
 ---
 
-### Messaging/Advertizing Board (LawPRO/TitlePLUS)
+### Announcements/Advertizing Board (LawPRO/TitlePLUS)
 
 #### .NET • AWS • Aurora RDS (MySQL) • SQL • React • Redux • NPM
 
@@ -237,7 +193,7 @@ Belgrade, Serbia
 
 #### .NET • AWS • Lambda • NuGet • Upgrade Assistant Dotnet Tool
 
-<!-- todo -->
+I spearheaded the modernization of a large .NET Core Web API, migrating it from version 3.1 to .NET 6. This critical upgrade involved a comprehensive process utilizing the Upgrade Assistant .NET Tool to address code compatibility and leverage new features. The migration also necessitated updating the Lambda runtime version to align with .NET 6. Furthermore, I meticulously updated numerous NuGet packages to their .NET 6 supported versions, including key dependencies such as Autofac, MediatR, FluentValidation, and the necessary AWS SDK packages. This migration ensured improved performance, enhanced security, and access to the latest .NET capabilities within the existing AWS Lambda deployment environment.
 
 ---
 
@@ -261,7 +217,7 @@ Created the custom `forgot password or username` service as the LawPRO users hav
 
 #### .NET Core • AWS • CodePipeline • Lambda • GitHub • GitHub Actions
 
-<!-- todo -->
+As part of a TitlePlus updated workflow initiative, I significantly improved the CI/CD pipeline by replacing AWS Code Pipeline with GitHub Actions. This involved defining efficient, declarative workflows using YAML, securely managing sensitive credentials with GitHub Secrets, and leveraging environment variables for configuration management across different stages. The deployment process was streamlined to assume an IAM identity with the necessary permissions, ensuring secure and automated deployments of the .NET Lambda functions.
 
 ---
 
@@ -269,21 +225,15 @@ Created the custom `forgot password or username` service as the LawPRO users hav
 
 #### ASP.NET Core • Azure Durable Function • Azure Function • EF Core • Azure Cognitive Search • Redis • Azure DevOps • Terraform
 
-AutoTrader had many old and unused orphaned assets, primarily images and videos, stored in Azure Blob Storage, Azure Table Storage, and Cosmos DB. I worked on a Durable Function that found those assets, backed them up to on-prem storage, and purged them from the Azure storage. This Durable Function had one central orchestrator and two sub-orchestrators. After the completion, we backed up and deleted more than 4.5 million orphaned images and videos from the storage. We also cleared several million entries in Azure Search Indexes. Unfortunately, I can't reveal the dollar amount saved.
+AutoTrader had many old and unused orphaned assets, primarily images and videos, stored in Azure Blob Storage, Azure Table Storage, and Cosmos DB. I worked on a Durable Function that found those assets, backed them up to on-prem storage, and purged them from the Azure storage. This Durable Function had one central orchestrator and two sub-orchestrators. After the first run, we archived and deleted more than 4.5 million orphaned images and videos from the storage. We also cleared several million entries in Azure Search Indexes. Unfortunately, I can't reveal the dollar amount saved.
 
 ---
 
 ### OSG eBilling/eStatement Solution (Indellient)
 
-#### ASP.NET Core • Web API • Razor Pages • PostgreSQL • EF Core • Npgsql • ASP.NET Core Identity • JavaScript • jQuery DataTable • VueJs • Redis • AWS • GitHub • Jenkins • Terraform • nUnit • Jira • Slack
+#### ASP.NET Core • Web API • Razor Pages • PostgreSQL • EF Core • Npgsql • ASP.NET Core Identity • JavaScript • jQuery DataTable • Redis • AWS • GitHub • Jenkins • Terraform • nUnit • Jira • Slack
 
-OSG's eBilling/eStatement solution is designed to extend beyond paper, providing a data-driven electronic presentment solution that simplifies the delivery process, reduces costs, and improves efficiency. This includes:
-
-- An online portal for accessing accurate replicas of end-customer's bill/statement and an archive with custom retention periods
-- Seamless interface integration
-- Self-service administrative capabilities
-- Dynamic reporting and search capabilities
-- Security and compliance with industry standards to protect sensitive information
+I contributed to OSG's eBilling/eStatement solution, a cloud-based (AWS) data-driven electronic presentment platform built with .NET Core, EF Core, and Razor Pages for the online portal, and PostgreSQL for robust data storage. This distributed application, which also leverages Identity Server for secure authentication and Java Spring Lambdas for API services, provides accurate bill/statement replicas, self-service administration, dynamic reporting, and robust security, effectively simplifying delivery, reducing costs, and improving efficiency for end-customers.
 
 ---
 
@@ -323,7 +273,7 @@ I updated the current P2P platform by creating a Knowledgebase Test, a trivia ty
 
 #### ASP.NET Core • Kestrel • SignalR • OpenId Connect • NodeJS • TypeScript • Gulp • NUnit • Mocha • Istanbul • NYC • VSTS • SonarQube
 
-Modern Office Add-On is visible part to Titus Data Classification solution. It's created with TypeScript as Node app, running inside the MS Office or the Office 365. The app accesses back-end connections and ML classification software thru installed Windows service, running Kestrel web app built in ASP.NET Core, with OpenID Connect token authentication and SignalR for communication with Node app. Test coverage was 100% on the back-end and 94% on the front-end.
+Modern Office Add-On is visible part to Titus Data Classification solution. It's created with TypeScript as Node.js app, running inside the MS Office or the Office 365. The app accesses back-end connections and ML classification software thru installed Windows service, running Kestrel web app built in ASP.NET Core, with OpenID Connect token authentication and SignalR for communication with Node.js app. Test coverage was 100% on the back-end and 94% on the front-end.
 
 ---
 
@@ -331,7 +281,7 @@ Modern Office Add-On is visible part to Titus Data Classification solution. It's
 
 #### ASP.NET Core • EF Core • ASP.NET Identity • Azure SQL • Aurelia • Gulp • Bower • Moq • NUnit • Jasmine • Swagger • Azure • SASS • VSTS
 
-Questica OpenBook software can help you build transparency and trust by communicating your data visually. Present financial and non-financial data with descriptive text, informational pop-ups, charts, and graphs. The searching, filtering and sorting tools allow you to find the right information faster and discover information that was once hidden in a spreadsheet. It is a multitenant SPA application hosted on Azure. Backend API is build using CQRS and Repository patterns.
+Questica OpenBook software can help you build transparency and trust by communicating your data visually. Present financial and non-financial data with descriptive text, informational pop-ups, charts, and graphs. The searching, filtering and sorting tools allow you to find the right information faster and discover information that was once hidden in a spreadsheet. It is a .NET Core multitenant SPA application hosted on Azure. Backend API is build using CQRS and Repository patterns.
 
 ---
 
@@ -379,7 +329,7 @@ Completed this project with ASP.NET MVC 4.5 to accommodate client's need for pri
 
 #### MS Access • SQLServer • ASP.NET 2.0, 3.5, 4.0, 4.5 • SSRS • Classic ASP • MVC • WebAPI • JS • AngularJS • jQuery • Bootstrap • GitHub
 
-Maintained and updated internal Inventory System based on SQLServer 2000 and MS Access. I played a key role in the successful migration of our database from SQLServer 2000 to SQLServer 2008 and later to SQLServer 2012. In the same process, I completely redesigned front-end GUI built in MS Access to a friendlier user experience using ASP.NET WinForms. During the upgrade, I created and optimized over 200 stored procedures and redesigned over 50 reports. Shipping/receiving tasks are 30% more efficient after adding barcode and QR Code enabled products tracking. In 2012, I converted the whole system from client/server type application to a 100% web-based system with no loss in productivity. I upgraded back-end to ASP.NET API web service and front end to the AngularJS app.
+Maintained and updated internal Inventory System based on SQLServer 2000 and MS Access. I played a key role in the successful migration of our database from SQLServer 2000 to SQLServer 2008 and later to SQLServer 2012. In the same process, I completely redesigned front-end GUI built in MS Access to a friendlier user experience using ASP.NET WPF. During the upgrade, I created and optimized over 200 stored procedures and redesigned over 50 reports. Shipping/receiving tasks are 30% more efficient after adding barcode and QR Code enabled products tracking. In 2012, I converted the whole system from client/server type application to a 100% web-based system with no loss in productivity. I upgraded back-end to ASP.NET API web service and front end to the Razor Pages app.
 
 ---
 
@@ -415,8 +365,8 @@ StoreFrontDirect is the end-to-end eCommerce solution that has all the online sa
 
 ---
 
-### Property Management Social Web App (Side Project)
+### Property Management Social Web App (Freelance Project)
 
-#### React • Flux • Firebase • Jest • Digital Ocean • SASS • Webpack • react-cli • npm • VSTS
+#### React • Flux • Firebase • Jest • SASS • react-cli • npm • GitHub
 
-This is a web app where managers/owners can post their properties for rent, upload pictures and create *available for viewing* time slots. Customers can view, fill an online application and set an appointment. Front-end was created with React and Firebase was used for the back-end. The project is currently in beta and is hosted on Digital Ocean.
+This is a web app where managers/owners can post their properties for rent, upload pictures and create *available for viewing* time slots. Customers can view, fill an online application and set an appointment. Front-end was created with React and Firebase was used for the back-end.
